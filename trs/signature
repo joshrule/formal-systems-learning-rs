@@ -1,0 +1,6 @@
+M: string;
+U: string;
+I: string;
+.: string -> string -> string;
+e: string;
+": string
