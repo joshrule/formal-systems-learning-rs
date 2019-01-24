@@ -1,9 +1,10 @@
-# For any string rewriting problem We assume:
+# For any string rewriting problem, we assume:
 
 # 1. Strings are associative.
-x_ y_ z_ = x_ (y_ z_)
-x_ (y_ z_) = x_ y_ z_
+x_ y_ z_ = x_ (y_ z_);
+x_ (y_ z_) = x_ y_ z_;
 
+# NOTE: THIS ASSUMPTION WAS REMOVED TO SIMPLIFY EVALUATION
 # 2. Rewrites can insert or remove the empty string, e, as needed.
-x_ y_  = x_ e y_
-x_ e = x_
+# x_ y_  = x_ e y_;
+# x_ e = x_;

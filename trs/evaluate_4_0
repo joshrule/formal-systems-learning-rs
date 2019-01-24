@@ -1,7 +1,25 @@
-" M x " = " M x x ";
+# I'd like to write this as
+#
+# "Mx" = "Mxx"
+# UU = e
+# III = U
+# I" = IU"
+#
+# but dealing with associativity and empty strings makes this way too complex
+# given our time constraints. So, I'm taking an approach which is similar to
+# something that's been done in the past (semi-Thue, Post Systems, ???) where
+# you must explicitly write out all substrings using variables. This doesn't
+# completely solve the problem of empty strings, but it does get rid of
+# associativity.
 
-U U = e;
+# S(.(M x_)) = S(.(.(M x_) x_))
+S((M x_)) = S((M x_ x_));
 
-I I I = U;
+# S(.(.(.(x_ U) U) y_)) = S(.(x_ y_))
+S((x_ U U y_)) = S((x_ y_));
 
-I " = U I ";
+# S(.(.(.(.(x_ I) I) I) y_)) = S(.(.(x_ U) y_))
+S((x_ I I I y_)) = S((x_ U y_));
+
+# S(.(x_ I)) = S(.(.(x_ I) U))
+S((x_ I)) = S((x_ I U));

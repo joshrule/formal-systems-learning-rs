@@ -1,6 +1,8 @@
-M: string;
-U: string;
-I: string;
-.: string -> string -> string;
-e: string;
-": string
+M: substring;
+U: substring;
+I: substring;
+.: substring -> substring -> substring;
+S: substring -> string;
+#
+# NOTE: REMOVED TO SIMPLIFY EVALUATION
+# e: substring;
