@@ -1,0 +1,3842 @@
+[
+    {
+        "challenge": "MMU", 
+        "correct": "MMUMU", 
+        "incorrect": "MUMUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 13122.0, 
+        "stimulus": 0
+    }, 
+    {
+        "challenge": "MI", 
+        "correct": "MII", 
+        "incorrect": "MMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 121.5, 
+        "stimulus": 1
+    }, 
+    {
+        "challenge": "MIUUI", 
+        "correct": "MIUUIIUUI", 
+        "incorrect": "IMIUUMMIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 2
+    }, 
+    {
+        "challenge": "MM", 
+        "correct": "MMM", 
+        "incorrect": "MMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 243.0, 
+        "stimulus": 3
+    }, 
+    {
+        "challenge": "MUI", 
+        "correct": "MUIUI", 
+        "incorrect": "MIIUI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 3280.5, 
+        "stimulus": 4
+    }, 
+    {
+        "challenge": "MMM", 
+        "correct": "MMMMM", 
+        "incorrect": "MMIMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 13122.0, 
+        "stimulus": 5
+    }, 
+    {
+        "challenge": "MUU", 
+        "correct": "MUUUU", 
+        "incorrect": "MIMUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 6561.0, 
+        "stimulus": 6
+    }, 
+    {
+        "challenge": "MMUIM", 
+        "correct": "MMUIMMUIM", 
+        "incorrect": "MUIMIUUIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 7
+    }, 
+    {
+        "challenge": "MU", 
+        "correct": "MUU", 
+        "incorrect": "MMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 243.0, 
+        "stimulus": 8
+    }, 
+    {
+        "challenge": "MUUMM", 
+        "correct": "MUUMMUUMM", 
+        "incorrect": "UIIMMUUMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 7174453.5, 
+        "stimulus": 9
+    }, 
+    {
+        "challenge": "MII", 
+        "correct": "MIIII", 
+        "incorrect": "IUMII", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9841.5, 
+        "stimulus": 10
+    }, 
+    {
+        "challenge": "MIUM", 
+        "correct": "MIUMIUM", 
+        "incorrect": "MIIMUMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 531441.0, 
+        "stimulus": 11
+    }, 
+    {
+        "challenge": "MIU", 
+        "correct": "MIUIU", 
+        "incorrect": "IMIUI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 13122.0, 
+        "stimulus": 12
+    }, 
+    {
+        "challenge": "MUM", 
+        "correct": "MUMUM", 
+        "incorrect": "MUUMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 13122.0, 
+        "stimulus": 13
+    }, 
+    {
+        "challenge": "MIUU", 
+        "correct": "MIUUIUU", 
+        "incorrect": "MIUUIIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 88573.5, 
+        "stimulus": 14
+    }, 
+    {
+        "challenge": "MMIM", 
+        "correct": "MMIMMIM", 
+        "incorrect": "MMIMIMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 354294.0, 
+        "stimulus": 15
+    }, 
+    {
+        "challenge": "MMMM", 
+        "correct": "MMMMMMM", 
+        "incorrect": "MMMIIMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 354294.0, 
+        "stimulus": 16
+    }, 
+    {
+        "challenge": "MMMI", 
+        "correct": "MMMIMMI", 
+        "incorrect": "UMIIMMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 177147.0, 
+        "stimulus": 17
+    }, 
+    {
+        "challenge": "MIIM", 
+        "correct": "MIIMIIM", 
+        "incorrect": "IMMIMIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 531441.0, 
+        "stimulus": 18
+    }, 
+    {
+        "challenge": "MUMM", 
+        "correct": "MUMMUMM", 
+        "incorrect": "UMIUIMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 531441.0, 
+        "stimulus": 19
+    }, 
+    {
+        "challenge": "MIM", 
+        "correct": "MIMIM", 
+        "incorrect": "UIMIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 6561.0, 
+        "stimulus": 20
+    }, 
+    {
+        "challenge": "MIIUU", 
+        "correct": "MIIUUIIUU", 
+        "incorrect": "MIIUIMUMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 7174453.5, 
+        "stimulus": 21
+    }, 
+    {
+        "challenge": "MMUU", 
+        "correct": "MMUUMUU", 
+        "incorrect": "UMUUMUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 88573.5, 
+        "stimulus": 22
+    }, 
+    {
+        "challenge": "MIMII", 
+        "correct": "MIMIIIMII", 
+        "incorrect": "MIMUIMUMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 23
+    }, 
+    {
+        "challenge": "MUUMU", 
+        "correct": "MUUMUUUMU", 
+        "incorrect": "MMUIMUMUM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 24
+    }, 
+    {
+        "challenge": "MUIUU", 
+        "correct": "MUIUUUIUU", 
+        "incorrect": "MUIIUMIUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 4782969.0, 
+        "stimulus": 25
+    }, 
+    {
+        "challenge": "MUMI", 
+        "correct": "MUMIUMI", 
+        "incorrect": "MIUMIMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 265720.5, 
+        "stimulus": 26
+    }, 
+    {
+        "challenge": "MUUU", 
+        "correct": "MUUUUUU", 
+        "incorrect": "MUUUMIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 177147.0, 
+        "stimulus": 27
+    }, 
+    {
+        "challenge": "MMII", 
+        "correct": "MMIIMII", 
+        "incorrect": "MMUUMII", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 177147.0, 
+        "stimulus": 28
+    }, 
+    {
+        "challenge": "MMI", 
+        "correct": "MMIMI", 
+        "incorrect": "MUMIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9841.5, 
+        "stimulus": 29
+    }, 
+    {
+        "challenge": "MMMU", 
+        "correct": "MMMUMMU", 
+        "incorrect": "UIMMMMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 531441.0, 
+        "stimulus": 30
+    }, 
+    {
+        "challenge": "MIII", 
+        "correct": "MIIIIII", 
+        "incorrect": "MUIIMMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 177147.0, 
+        "stimulus": 31
+    }, 
+    {
+        "challenge": "MIMM", 
+        "correct": "MIMMIMM", 
+        "incorrect": "MUUIMIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 708588.0, 
+        "stimulus": 32
+    }, 
+    {
+        "challenge": "MMUI", 
+        "correct": "MMUIMUI", 
+        "incorrect": "MUUIMUI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 88573.5, 
+        "stimulus": 33
+    }, 
+    {
+        "challenge": "MMMMM", 
+        "correct": "MMMMMMMMM", 
+        "incorrect": "MUIMIMMMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 34
+    }, 
+    {
+        "challenge": "MMMMI", 
+        "correct": "MMMMIMMMI", 
+        "incorrect": "MIMMMIUIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 35
+    }, 
+    {
+        "challenge": "MMMII", 
+        "correct": "MMMIIMMII", 
+        "incorrect": "MUMMIIUIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 36
+    }, 
+    {
+        "challenge": "MUUM", 
+        "correct": "MUUMUUM", 
+        "incorrect": "UIIMUUM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 265720.5, 
+        "stimulus": 37
+    }, 
+    {
+        "challenge": "MIUUM", 
+        "correct": "MIUUMIUUM", 
+        "incorrect": "IMIUMIUMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 38
+    }, 
+    {
+        "challenge": "MIMU", 
+        "correct": "MIMUIMU", 
+        "incorrect": "MIMIIMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 177147.0, 
+        "stimulus": 39
+    }, 
+    {
+        "challenge": "MIIU", 
+        "correct": "MIIUIIU", 
+        "incorrect": "MIIUUIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 354294.0, 
+        "stimulus": 40
+    }, 
+    {
+        "challenge": "MUIMI", 
+        "correct": "MUIMIUIMI", 
+        "incorrect": "MMMUUIUMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 41
+    }, 
+    {
+        "challenge": "MMIII", 
+        "correct": "MMIIIMIII", 
+        "incorrect": "MUUMUUIII", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 7971615.0, 
+        "stimulus": 42
+    }, 
+    {
+        "challenge": "MUUUU", 
+        "correct": "MUUUUUUUU", 
+        "incorrect": "MMMUUUUIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 4782969.0, 
+        "stimulus": 43
+    }, 
+    {
+        "challenge": "MMMUI", 
+        "correct": "MMMUIMMUI", 
+        "incorrect": "MMMMUIUMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 44
+    }, 
+    {
+        "challenge": "MUIUI", 
+        "correct": "MUIUIUIUI", 
+        "incorrect": "MUIUIUUMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 4782969.0, 
+        "stimulus": 45
+    }, 
+    {
+        "challenge": "MUIIM", 
+        "correct": "MUIIMUIIM", 
+        "incorrect": "MUMIIMUII", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 46
+    }, 
+    {
+        "challenge": "MMUM", 
+        "correct": "MMUMMUM", 
+        "incorrect": "MIMMUMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 531441.0, 
+        "stimulus": 47
+    }, 
+    {
+        "challenge": "MMMIU", 
+        "correct": "MMMIUMMIU", 
+        "incorrect": "IMUUUMMIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 48
+    }, 
+    {
+        "challenge": "MIMI", 
+        "correct": "MIMIIMI", 
+        "incorrect": "UMUIMIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 354294.0, 
+        "stimulus": 49
+    }, 
+    {
+        "challenge": "MUMU", 
+        "correct": "MUMUUMU", 
+        "incorrect": "IMMUMUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 708588.0, 
+        "stimulus": 50
+    }, 
+    {
+        "challenge": "MMMUM", 
+        "correct": "MMMUMMMUM", 
+        "incorrect": "MMIUMIIUM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 51
+    }, 
+    {
+        "challenge": "MUMIM", 
+        "correct": "MUMIMUMIM", 
+        "incorrect": "UMUIMMIMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 52
+    }, 
+    {
+        "challenge": "MMIMU", 
+        "correct": "MMIMUMIMU", 
+        "incorrect": "UMMIMUMIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 53
+    }, 
+    {
+        "challenge": "MIUIU", 
+        "correct": "MIUIUIUIU", 
+        "incorrect": "MIUIMMUMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 54
+    }, 
+    {
+        "challenge": "MIMUU", 
+        "correct": "MIMUUIMUU", 
+        "incorrect": "MMIMUUIMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 7174453.5, 
+        "stimulus": 55
+    }, 
+    {
+        "challenge": "MUMMM", 
+        "correct": "MUMMMUMMM", 
+        "incorrect": "UMIMUMMMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 56
+    }, 
+    {
+        "challenge": "MIIIU", 
+        "correct": "MIIIUIIIU", 
+        "incorrect": "UIMUIUIIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 57
+    }, 
+    {
+        "challenge": "MIUUU", 
+        "correct": "MIUUUIUUU", 
+        "incorrect": "MIUMIUIUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 4782969.0, 
+        "stimulus": 58
+    }, 
+    {
+        "challenge": "MUIU", 
+        "correct": "MUIUUIU", 
+        "incorrect": "MUIUUMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 177147.0, 
+        "stimulus": 59
+    }, 
+    {
+        "challenge": "MIUIM", 
+        "correct": "MIUIMIUIM", 
+        "incorrect": "MIIMUIIIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 60
+    }, 
+    {
+        "challenge": "MUIII", 
+        "correct": "MUIIIUIII", 
+        "incorrect": "MMUIUUIII", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 4782969.0, 
+        "stimulus": 61
+    }, 
+    {
+        "challenge": "MMMMU", 
+        "correct": "MMMMUMMMU", 
+        "incorrect": "IIMMMMMUM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 62
+    }, 
+    {
+        "challenge": "MIUI", 
+        "correct": "MIUIIUI", 
+        "incorrect": "MIMUIMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 265720.5, 
+        "stimulus": 63
+    }, 
+    {
+        "challenge": "MIIII", 
+        "correct": "MIIIIIIII", 
+        "incorrect": "UIMIIIIII", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 2391484.5, 
+        "stimulus": 64
+    }, 
+    {
+        "challenge": "MUUI", 
+        "correct": "MUUIUUI", 
+        "incorrect": "MIUUIUM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 177147.0, 
+        "stimulus": 65
+    }, 
+    {
+        "challenge": "MUUIU", 
+        "correct": "MUUIUUUIU", 
+        "incorrect": "MUUIUIUIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 2391484.5, 
+        "stimulus": 66
+    }, 
+    {
+        "challenge": "MUII", 
+        "correct": "MUIIUII", 
+        "incorrect": "MIUIMUI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 265720.5, 
+        "stimulus": 67
+    }, 
+    {
+        "challenge": "MUUII", 
+        "correct": "MUUIIUUII", 
+        "incorrect": "MMUUMUUII", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 4782969.0, 
+        "stimulus": 68
+    }, 
+    {
+        "challenge": "MIMUM", 
+        "correct": "MIMUMIMUM", 
+        "incorrect": "MIIMUMUIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 69
+    }, 
+    {
+        "challenge": "MMIUU", 
+        "correct": "MMIUUMIUU", 
+        "incorrect": "MMUMIIIUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 70
+    }, 
+    {
+        "challenge": "MUUUM", 
+        "correct": "MUUUMUUUM", 
+        "incorrect": "MUMUUMUMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 4782969.0, 
+        "stimulus": 71
+    }, 
+    {
+        "challenge": "MMMUU", 
+        "correct": "MMMUUMMUU", 
+        "incorrect": "MMMUUMUIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 4782969.0, 
+        "stimulus": 72
+    }, 
+    {
+        "challenge": "MUMUI", 
+        "correct": "MUMUIUMUI", 
+        "incorrect": "UMIUMUIIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 73
+    }, 
+    {
+        "challenge": "MIMMI", 
+        "correct": "MIMMIIMMI", 
+        "incorrect": "IUMIMMUUI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 11957422.5, 
+        "stimulus": 74
+    }, 
+    {
+        "challenge": "MIMMM", 
+        "correct": "MIMMMIMMM", 
+        "incorrect": "MMUUUIMMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 75
+    }, 
+    {
+        "challenge": "MMUUU", 
+        "correct": "MMUUUMUUU", 
+        "incorrect": "MMUMIIUMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 6377292.0, 
+        "stimulus": 76
+    }, 
+    {
+        "challenge": "MUUUI", 
+        "correct": "MUUUIUUUI", 
+        "incorrect": "MIUUMMUMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 4782969.0, 
+        "stimulus": 77
+    }, 
+    {
+        "challenge": "MMIU", 
+        "correct": "MMIUMIU", 
+        "incorrect": "UMMIUIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 354294.0, 
+        "stimulus": 78
+    }, 
+    {
+        "challenge": "MIMIU", 
+        "correct": "MIMIUIMIU", 
+        "incorrect": "MIMIMIIUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 79
+    }, 
+    {
+        "challenge": "MIUMI", 
+        "correct": "MIUMIIUMI", 
+        "incorrect": "IMUIIUMII", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 80
+    }, 
+    {
+        "challenge": "MUUMI", 
+        "correct": "MUUMIUUMI", 
+        "incorrect": "MMUMUMMMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 6377292.0, 
+        "stimulus": 81
+    }, 
+    {
+        "challenge": "MMIMI", 
+        "correct": "MMIMIMIMI", 
+        "incorrect": "IIUMMIMIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 11957422.5, 
+        "stimulus": 82
+    }, 
+    {
+        "challenge": "MUMII", 
+        "correct": "MUMIIUMII", 
+        "incorrect": "MUMMMIIMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 83
+    }, 
+    {
+        "challenge": "MIMUI", 
+        "correct": "MIMUIIMUI", 
+        "incorrect": "UUMIMUIMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 11957422.5, 
+        "stimulus": 84
+    }, 
+    {
+        "challenge": "MIMIM", 
+        "correct": "MIMIMIMIM", 
+        "incorrect": "UIIMIMMIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 85
+    }, 
+    {
+        "challenge": "MMUMM", 
+        "correct": "MMUMMMUMM", 
+        "incorrect": "IIIMIMUMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 86
+    }, 
+    {
+        "challenge": "MUMIU", 
+        "correct": "MUMIUUMIU", 
+        "incorrect": "MUMIUIMIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 87
+    }, 
+    {
+        "challenge": "MIIMU", 
+        "correct": "MIIMUIIMU", 
+        "incorrect": "IMIIIIMMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 88
+    }, 
+    {
+        "challenge": "MUMMI", 
+        "correct": "MUMMIUMMI", 
+        "incorrect": "MUMUMIMUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 89
+    }, 
+    {
+        "challenge": "MMUII", 
+        "correct": "MMUIIMUII", 
+        "incorrect": "UMMUIUMII", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 7174453.5, 
+        "stimulus": 90
+    }, 
+    {
+        "challenge": "MIIMM", 
+        "correct": "MIIMMIIMM", 
+        "incorrect": "MIIIMIUMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 91
+    }, 
+    {
+        "challenge": "MMIUM", 
+        "correct": "MMIUMMIUM", 
+        "incorrect": "MMMIUIMUM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 92
+    }, 
+    {
+        "challenge": "MUIM", 
+        "correct": "MUIMUIM", 
+        "incorrect": "UIMUMIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 354294.0, 
+        "stimulus": 93
+    }, 
+    {
+        "challenge": "MUMUM", 
+        "correct": "MUMUMUMUM", 
+        "incorrect": "IMUMUMUMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 94
+    }, 
+    {
+        "challenge": "MUIUM", 
+        "correct": "MUIUMUIUM", 
+        "incorrect": "UUMUIIUIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 95
+    }, 
+    {
+        "challenge": "MIIIM", 
+        "correct": "MIIIMIIIM", 
+        "incorrect": "IMIIUIMII", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 96
+    }, 
+    {
+        "challenge": "MIIUI", 
+        "correct": "MIIUIIIUI", 
+        "incorrect": "MIUIMUMMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 11957422.5, 
+        "stimulus": 97
+    }, 
+    {
+        "challenge": "MIUMU", 
+        "correct": "MIUMUIUMU", 
+        "incorrect": "MIMUUMMUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 98
+    }, 
+    {
+        "challenge": "MIUII", 
+        "correct": "MIUIIIUII", 
+        "incorrect": "MMIUIIUUI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 7174453.5, 
+        "stimulus": 99
+    }, 
+    {
+        "challenge": "MUIIU", 
+        "correct": "MUIIUUIIU", 
+        "incorrect": "MMUUUMIIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 100
+    }, 
+    {
+        "challenge": "MUMUU", 
+        "correct": "MUMUUUMUU", 
+        "incorrect": "MMMUMUIIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 101
+    }, 
+    {
+        "challenge": "MMIUI", 
+        "correct": "MMIUIMIUI", 
+        "incorrect": "IIMMIUMIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 102
+    }, 
+    {
+        "challenge": "MUIMM", 
+        "correct": "MUIMMUIMM", 
+        "incorrect": "MUIUUMMMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 103
+    }, 
+    {
+        "challenge": "MIIMI", 
+        "correct": "MIIMIIIMI", 
+        "incorrect": "MUIIIMIMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 104
+    }, 
+    {
+        "challenge": "MMUMI", 
+        "correct": "MMUMIMUMI", 
+        "incorrect": "MMUMUMIMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 4782969.0, 
+        "stimulus": 105
+    }, 
+    {
+        "challenge": "MMUMU", 
+        "correct": "MMUMUMUMU", 
+        "incorrect": "UMUIMUMUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 106
+    }, 
+    {
+        "challenge": "MMUUM", 
+        "correct": "MMUUMMUUM", 
+        "incorrect": "MMIUIUUMI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 107
+    }, 
+    {
+        "challenge": "MUIMU", 
+        "correct": "MUIMUUIMU", 
+        "incorrect": "IMIIUMIMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 108
+    }, 
+    {
+        "challenge": "MIMMU", 
+        "correct": "MIMMUIMMU", 
+        "incorrect": "MIMMMMMUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 109
+    }, 
+    {
+        "challenge": "MUUIM", 
+        "correct": "MUUIMUUIM", 
+        "incorrect": "IMUMUMIMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 11957422.5, 
+        "stimulus": 110
+    }, 
+    {
+        "challenge": "MMMIM", 
+        "correct": "MMMIMMMIM", 
+        "incorrect": "MMIMIUIIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 111
+    }, 
+    {
+        "challenge": "MIIUM", 
+        "correct": "MIIUMIIUM", 
+        "incorrect": "IMMUIUIUM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 23914845.0, 
+        "stimulus": 112
+    }, 
+    {
+        "challenge": "MMUUI", 
+        "correct": "MMUUIMUUI", 
+        "incorrect": "IUUMUMUUI", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 6377292.0, 
+        "stimulus": 113
+    }, 
+    {
+        "challenge": "MMUIU", 
+        "correct": "MMUIUMUIU", 
+        "incorrect": "MMUIMUUIU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 9565938.0, 
+        "stimulus": 114
+    }, 
+    {
+        "challenge": "MIUMM", 
+        "correct": "MIUMMIUMM", 
+        "incorrect": "UUMMIUMMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 115
+    }, 
+    {
+        "challenge": "MMIIM", 
+        "correct": "MMIIMMIIM", 
+        "incorrect": "IUIMMIIMM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 19131876.0, 
+        "stimulus": 116
+    }, 
+    {
+        "challenge": "MMIIU", 
+        "correct": "MMIIUMIIU", 
+        "incorrect": "MUMIUIMUU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 23914845.0, 
+        "stimulus": 117
+    }, 
+    {
+        "challenge": "MMIMM", 
+        "correct": "MMIMMMIMM", 
+        "incorrect": "IMMIMMIIM", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 14348907.0, 
+        "stimulus": 118
+    }, 
+    {
+        "challenge": "MUMMU", 
+        "correct": "MUMMUUMMU", 
+        "incorrect": "MUMMUMMMU", 
+        "rule": "\"Mx\"->\"Mxx\"", 
+        "score": 4782969.0, 
+        "stimulus": 119
+    }, 
+    {
+        "challenge": "MI", 
+        "correct": "MIU", 
+        "incorrect": "MIM", 
+        "rule": "I\"->IU\"", 
+        "score": 121.5, 
+        "stimulus": 120
+    }, 
+    {
+        "challenge": "MMI", 
+        "correct": "MMIU", 
+        "incorrect": "MMII", 
+        "rule": "I\"->IU\"", 
+        "score": 1093.5, 
+        "stimulus": 121
+    }, 
+    {
+        "challenge": "UI", 
+        "correct": "UIU", 
+        "incorrect": "IUI", 
+        "rule": "I\"->IU\"", 
+        "score": 486.0, 
+        "stimulus": 122
+    }, 
+    {
+        "challenge": "I", 
+        "correct": "IU", 
+        "incorrect": "UI", 
+        "rule": "I\"->IU\"", 
+        "score": 54.0, 
+        "stimulus": 123
+    }, 
+    {
+        "challenge": "UMI", 
+        "correct": "UMIU", 
+        "incorrect": "UMIM", 
+        "rule": "I\"->IU\"", 
+        "score": 2187.0, 
+        "stimulus": 124
+    }, 
+    {
+        "challenge": "II", 
+        "correct": "IIU", 
+        "incorrect": "IIM", 
+        "rule": "I\"->IU\"", 
+        "score": 243.0, 
+        "stimulus": 125
+    }, 
+    {
+        "challenge": "UIIII", 
+        "correct": "UIIIIU", 
+        "incorrect": "UUIIII", 
+        "rule": "I\"->IU\"", 
+        "score": 118098.0, 
+        "stimulus": 126
+    }, 
+    {
+        "challenge": "MMMI", 
+        "correct": "MMMIU", 
+        "incorrect": "MMMMI", 
+        "rule": "I\"->IU\"", 
+        "score": 19683.0, 
+        "stimulus": 127
+    }, 
+    {
+        "challenge": "IMI", 
+        "correct": "IMIU", 
+        "incorrect": "IMII", 
+        "rule": "I\"->IU\"", 
+        "score": 2187.0, 
+        "stimulus": 128
+    }, 
+    {
+        "challenge": "MIMMI", 
+        "correct": "MIMMIU", 
+        "incorrect": "MIMMII", 
+        "rule": "I\"->IU\"", 
+        "score": 88573.5, 
+        "stimulus": 129
+    }, 
+    {
+        "challenge": "UII", 
+        "correct": "UIIU", 
+        "incorrect": "UIIM", 
+        "rule": "I\"->IU\"", 
+        "score": 2187.0, 
+        "stimulus": 130
+    }, 
+    {
+        "challenge": "MIUI", 
+        "correct": "MIUIU", 
+        "incorrect": "UMIUI", 
+        "rule": "I\"->IU\"", 
+        "score": 19683.0, 
+        "stimulus": 131
+    }, 
+    {
+        "challenge": "III", 
+        "correct": "IIIU", 
+        "incorrect": "IUII", 
+        "rule": "I\"->IU\"", 
+        "score": 2187.0, 
+        "stimulus": 132
+    }, 
+    {
+        "challenge": "MUI", 
+        "correct": "MUIU", 
+        "incorrect": "MUIM", 
+        "rule": "I\"->IU\"", 
+        "score": 1093.5, 
+        "stimulus": 133
+    }, 
+    {
+        "challenge": "UUII", 
+        "correct": "UUIIU", 
+        "incorrect": "UUIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 19683.0, 
+        "stimulus": 134
+    }, 
+    {
+        "challenge": "MUIMI", 
+        "correct": "MUIMIU", 
+        "incorrect": "MUUIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 135
+    }, 
+    {
+        "challenge": "IIMUI", 
+        "correct": "IIMUIU", 
+        "incorrect": "MIIMUI", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 136
+    }, 
+    {
+        "challenge": "UUUI", 
+        "correct": "UUUIU", 
+        "incorrect": "UUUIM", 
+        "rule": "I\"->IU\"", 
+        "score": 6561.0, 
+        "stimulus": 137
+    }, 
+    {
+        "challenge": "IMUUUIMI", 
+        "correct": "IMUUUIMIU", 
+        "incorrect": "IMIUUUIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 86093442.0, 
+        "stimulus": 138
+    }, 
+    {
+        "challenge": "UUMI", 
+        "correct": "UUMIU", 
+        "incorrect": "UUIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 19683.0, 
+        "stimulus": 139
+    }, 
+    {
+        "challenge": "IIMI", 
+        "correct": "IIMIU", 
+        "incorrect": "IIIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 39366.0, 
+        "stimulus": 140
+    }, 
+    {
+        "challenge": "UUI", 
+        "correct": "UUIU", 
+        "incorrect": "UIUI", 
+        "rule": "I\"->IU\"", 
+        "score": 2187.0, 
+        "stimulus": 141
+    }, 
+    {
+        "challenge": "MII", 
+        "correct": "MIIU", 
+        "incorrect": "MIIM", 
+        "rule": "I\"->IU\"", 
+        "score": 1093.5, 
+        "stimulus": 142
+    }, 
+    {
+        "challenge": "IIII", 
+        "correct": "IIIIU", 
+        "incorrect": "IIIIM", 
+        "rule": "I\"->IU\"", 
+        "score": 6561.0, 
+        "stimulus": 143
+    }, 
+    {
+        "challenge": "IUI", 
+        "correct": "IUIU", 
+        "incorrect": "UIUI", 
+        "rule": "I\"->IU\"", 
+        "score": 4374.0, 
+        "stimulus": 144
+    }, 
+    {
+        "challenge": "IUMI", 
+        "correct": "IUMIU", 
+        "incorrect": "MIUMI", 
+        "rule": "I\"->IU\"", 
+        "score": 39366.0, 
+        "stimulus": 145
+    }, 
+    {
+        "challenge": "UMMI", 
+        "correct": "UMMIU", 
+        "incorrect": "UUMMI", 
+        "rule": "I\"->IU\"", 
+        "score": 39366.0, 
+        "stimulus": 146
+    }, 
+    {
+        "challenge": "MUUUMUI", 
+        "correct": "MUUUMUIU", 
+        "incorrect": "MUUUMUMI", 
+        "rule": "I\"->IU\"", 
+        "score": 9565938.0, 
+        "stimulus": 147
+    }, 
+    {
+        "challenge": "UMII", 
+        "correct": "UMIIU", 
+        "incorrect": "UMMII", 
+        "rule": "I\"->IU\"", 
+        "score": 39366.0, 
+        "stimulus": 148
+    }, 
+    {
+        "challenge": "UIII", 
+        "correct": "UIIIU", 
+        "incorrect": "UIIII", 
+        "rule": "I\"->IU\"", 
+        "score": 9841.5, 
+        "stimulus": 149
+    }, 
+    {
+        "challenge": "MUUIMUI", 
+        "correct": "MUUIMUIU", 
+        "incorrect": "MUUUIMUI", 
+        "rule": "I\"->IU\"", 
+        "score": 14348907.0, 
+        "stimulus": 150
+    }, 
+    {
+        "challenge": "MUMI", 
+        "correct": "MUMIU", 
+        "incorrect": "MUMIM", 
+        "rule": "I\"->IU\"", 
+        "score": 9841.5, 
+        "stimulus": 151
+    }, 
+    {
+        "challenge": "IUIII", 
+        "correct": "IUIIIU", 
+        "incorrect": "IUIIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 152
+    }, 
+    {
+        "challenge": "MMII", 
+        "correct": "MMIIU", 
+        "incorrect": "MMIII", 
+        "rule": "I\"->IU\"", 
+        "score": 9841.5, 
+        "stimulus": 153
+    }, 
+    {
+        "challenge": "MIMI", 
+        "correct": "MIMIU", 
+        "incorrect": "MUIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 19683.0, 
+        "stimulus": 154
+    }, 
+    {
+        "challenge": "MUUI", 
+        "correct": "MUUIU", 
+        "incorrect": "MUUIM", 
+        "rule": "I\"->IU\"", 
+        "score": 6561.0, 
+        "stimulus": 155
+    }, 
+    {
+        "challenge": "UUMII", 
+        "correct": "UUMIIU", 
+        "incorrect": "MUUMII", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 156
+    }, 
+    {
+        "challenge": "MUUUI", 
+        "correct": "MUUUIU", 
+        "incorrect": "MUUUMI", 
+        "rule": "I\"->IU\"", 
+        "score": 88573.5, 
+        "stimulus": 157
+    }, 
+    {
+        "challenge": "IUUUI", 
+        "correct": "IUUUIU", 
+        "incorrect": "UIUUUI", 
+        "rule": "I\"->IU\"", 
+        "score": 118098.0, 
+        "stimulus": 158
+    }, 
+    {
+        "challenge": "IMMI", 
+        "correct": "IMMIU", 
+        "incorrect": "IMIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 39366.0, 
+        "stimulus": 159
+    }, 
+    {
+        "challenge": "UUMMII", 
+        "correct": "UUMMIIU", 
+        "incorrect": "IUUMMII", 
+        "rule": "I\"->IU\"", 
+        "score": 1594323.0, 
+        "stimulus": 160
+    }, 
+    {
+        "challenge": "MIII", 
+        "correct": "MIIIU", 
+        "incorrect": "MIUII", 
+        "rule": "I\"->IU\"", 
+        "score": 13122.0, 
+        "stimulus": 161
+    }, 
+    {
+        "challenge": "UUIUI", 
+        "correct": "UUIUIU", 
+        "incorrect": "UUIUIM", 
+        "rule": "I\"->IU\"", 
+        "score": 88573.5, 
+        "stimulus": 162
+    }, 
+    {
+        "challenge": "IMMMUI", 
+        "correct": "IMMMUIU", 
+        "incorrect": "UIMMMUI", 
+        "rule": "I\"->IU\"", 
+        "score": 3188646.0, 
+        "stimulus": 163
+    }, 
+    {
+        "challenge": "MIMUUMI", 
+        "correct": "MIMUUMIU", 
+        "incorrect": "MIMUUMII", 
+        "rule": "I\"->IU\"", 
+        "score": 7174453.5, 
+        "stimulus": 164
+    }, 
+    {
+        "challenge": "UIUMUI", 
+        "correct": "UIUMUIU", 
+        "incorrect": "UIUMUII", 
+        "rule": "I\"->IU\"", 
+        "score": 1594323.0, 
+        "stimulus": 165
+    }, 
+    {
+        "challenge": "MUII", 
+        "correct": "MUIIU", 
+        "incorrect": "MUIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 19683.0, 
+        "stimulus": 166
+    }, 
+    {
+        "challenge": "MMUI", 
+        "correct": "MMUIU", 
+        "incorrect": "MIMUI", 
+        "rule": "I\"->IU\"", 
+        "score": 19683.0, 
+        "stimulus": 167
+    }, 
+    {
+        "challenge": "MUUMI", 
+        "correct": "MUUMIU", 
+        "incorrect": "MMUUMI", 
+        "rule": "I\"->IU\"", 
+        "score": 118098.0, 
+        "stimulus": 168
+    }, 
+    {
+        "challenge": "UMMMI", 
+        "correct": "UMMMIU", 
+        "incorrect": "UMIMMI", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 169
+    }, 
+    {
+        "challenge": "UIUI", 
+        "correct": "UIUIU", 
+        "incorrect": "UIUII", 
+        "rule": "I\"->IU\"", 
+        "score": 19683.0, 
+        "stimulus": 170
+    }, 
+    {
+        "challenge": "IIUUUII", 
+        "correct": "IIUUUIIU", 
+        "incorrect": "UIIUUUII", 
+        "rule": "I\"->IU\"", 
+        "score": 9565938.0, 
+        "stimulus": 171
+    }, 
+    {
+        "challenge": "MUIII", 
+        "correct": "MUIIIU", 
+        "incorrect": "MUIIUI", 
+        "rule": "I\"->IU\"", 
+        "score": 118098.0, 
+        "stimulus": 172
+    }, 
+    {
+        "challenge": "IIMMII", 
+        "correct": "IIMMIIU", 
+        "incorrect": "IIMMIII", 
+        "rule": "I\"->IU\"", 
+        "score": 1594323.0, 
+        "stimulus": 173
+    }, 
+    {
+        "challenge": "UMUI", 
+        "correct": "UMUIU", 
+        "incorrect": "IUMUI", 
+        "rule": "I\"->IU\"", 
+        "score": 39366.0, 
+        "stimulus": 174
+    }, 
+    {
+        "challenge": "UIMI", 
+        "correct": "UIMIU", 
+        "incorrect": "UIMII", 
+        "rule": "I\"->IU\"", 
+        "score": 19683.0, 
+        "stimulus": 175
+    }, 
+    {
+        "challenge": "MMIMI", 
+        "correct": "MMIMIU", 
+        "incorrect": "IMMIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 176
+    }, 
+    {
+        "challenge": "IUUI", 
+        "correct": "IUUIU", 
+        "incorrect": "IUUII", 
+        "rule": "I\"->IU\"", 
+        "score": 9841.5, 
+        "stimulus": 177
+    }, 
+    {
+        "challenge": "UUIUUI", 
+        "correct": "UUIUUIU", 
+        "incorrect": "UUIUMUI", 
+        "rule": "I\"->IU\"", 
+        "score": 1062882.0, 
+        "stimulus": 178
+    }, 
+    {
+        "challenge": "MIIMI", 
+        "correct": "MIIMIU", 
+        "incorrect": "MUIIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 179
+    }, 
+    {
+        "challenge": "IUMIII", 
+        "correct": "IUMIIIU", 
+        "incorrect": "IUMIIIM", 
+        "rule": "I\"->IU\"", 
+        "score": 797161.5, 
+        "stimulus": 180
+    }, 
+    {
+        "challenge": "IMUMII", 
+        "correct": "IMUMIIU", 
+        "incorrect": "IMUMUII", 
+        "rule": "I\"->IU\"", 
+        "score": 3188646.0, 
+        "stimulus": 181
+    }, 
+    {
+        "challenge": "IIMMI", 
+        "correct": "IIMMIU", 
+        "incorrect": "IUIMMI", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 182
+    }, 
+    {
+        "challenge": "UIUUI", 
+        "correct": "UIUUIU", 
+        "incorrect": "UIUUIM", 
+        "rule": "I\"->IU\"", 
+        "score": 88573.5, 
+        "stimulus": 183
+    }, 
+    {
+        "challenge": "IMMII", 
+        "correct": "IMMIIU", 
+        "incorrect": "IMMUII", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 184
+    }, 
+    {
+        "challenge": "MMUII", 
+        "correct": "MMUIIU", 
+        "incorrect": "MMUUII", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 185
+    }, 
+    {
+        "challenge": "IIUI", 
+        "correct": "IIUIU", 
+        "incorrect": "IUIUI", 
+        "rule": "I\"->IU\"", 
+        "score": 39366.0, 
+        "stimulus": 186
+    }, 
+    {
+        "challenge": "UUMMI", 
+        "correct": "UUMMIU", 
+        "incorrect": "UUMIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 187
+    }, 
+    {
+        "challenge": "UMMUMI", 
+        "correct": "UMMUMIU", 
+        "incorrect": "UMMUMMI", 
+        "rule": "I\"->IU\"", 
+        "score": 3188646.0, 
+        "stimulus": 188
+    }, 
+    {
+        "challenge": "IUUUIII", 
+        "correct": "IUUUIIIU", 
+        "incorrect": "IUUUIMII", 
+        "rule": "I\"->IU\"", 
+        "score": 7174453.5, 
+        "stimulus": 189
+    }, 
+    {
+        "challenge": "IMUII", 
+        "correct": "IMUIIU", 
+        "incorrect": "UIMUII", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 190
+    }, 
+    {
+        "challenge": "UIMMI", 
+        "correct": "UIMMIU", 
+        "incorrect": "UIMMMI", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 191
+    }, 
+    {
+        "challenge": "MUMMI", 
+        "correct": "MUMMIU", 
+        "incorrect": "MUMMIM", 
+        "rule": "I\"->IU\"", 
+        "score": 88573.5, 
+        "stimulus": 192
+    }, 
+    {
+        "challenge": "MMUMI", 
+        "correct": "MMUMIU", 
+        "incorrect": "MMIUMI", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 193
+    }, 
+    {
+        "challenge": "MIIII", 
+        "correct": "MIIIIU", 
+        "incorrect": "MIMIII", 
+        "rule": "I\"->IU\"", 
+        "score": 88573.5, 
+        "stimulus": 194
+    }, 
+    {
+        "challenge": "IIMMUMII", 
+        "correct": "IIMMUMIIU", 
+        "incorrect": "IIMMIUMII", 
+        "rule": "I\"->IU\"", 
+        "score": 258280326.0, 
+        "stimulus": 195
+    }, 
+    {
+        "challenge": "IIUUI", 
+        "correct": "IIUUIU", 
+        "incorrect": "MIIUUI", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 196
+    }, 
+    {
+        "challenge": "UUIIUUI", 
+        "correct": "UUIIUUIU", 
+        "incorrect": "UUIIUUUI", 
+        "rule": "I\"->IU\"", 
+        "score": 9565938.0, 
+        "stimulus": 197
+    }, 
+    {
+        "challenge": "UMMUI", 
+        "correct": "UMMUIU", 
+        "incorrect": "IUMMUI", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 198
+    }, 
+    {
+        "challenge": "MIUUII", 
+        "correct": "MIUUIIU", 
+        "incorrect": "MIUUMII", 
+        "rule": "I\"->IU\"", 
+        "score": 1594323.0, 
+        "stimulus": 199
+    }, 
+    {
+        "challenge": "UUUII", 
+        "correct": "UUUIIU", 
+        "incorrect": "UMUUII", 
+        "rule": "I\"->IU\"", 
+        "score": 118098.0, 
+        "stimulus": 200
+    }, 
+    {
+        "challenge": "MUIIII", 
+        "correct": "MUIIIIU", 
+        "incorrect": "UMUIIII", 
+        "rule": "I\"->IU\"", 
+        "score": 1062882.0, 
+        "stimulus": 201
+    }, 
+    {
+        "challenge": "UUUUI", 
+        "correct": "UUUUIU", 
+        "incorrect": "UUUUIM", 
+        "rule": "I\"->IU\"", 
+        "score": 44286.75, 
+        "stimulus": 202
+    }, 
+    {
+        "challenge": "IIMIUUI", 
+        "correct": "IIMIUUIU", 
+        "incorrect": "IIMIUUII", 
+        "rule": "I\"->IU\"", 
+        "score": 7174453.5, 
+        "stimulus": 203
+    }, 
+    {
+        "challenge": "UIMUUI", 
+        "correct": "UIMUUIU", 
+        "incorrect": "UIUMUUI", 
+        "rule": "I\"->IU\"", 
+        "score": 1594323.0, 
+        "stimulus": 204
+    }, 
+    {
+        "challenge": "UMIMIUI", 
+        "correct": "UMIMIUIU", 
+        "incorrect": "UMIUMIUI", 
+        "rule": "I\"->IU\"", 
+        "score": 28697814.0, 
+        "stimulus": 205
+    }, 
+    {
+        "challenge": "UIMII", 
+        "correct": "UIMIIU", 
+        "incorrect": "UMIMII", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 206
+    }, 
+    {
+        "challenge": "MMMMMI", 
+        "correct": "MMMMMIU", 
+        "incorrect": "MMIMMMI", 
+        "rule": "I\"->IU\"", 
+        "score": 3188646.0, 
+        "stimulus": 207
+    }, 
+    {
+        "challenge": "IIIMI", 
+        "correct": "IIIMIU", 
+        "incorrect": "IIIMIM", 
+        "rule": "I\"->IU\"", 
+        "score": 88573.5, 
+        "stimulus": 208
+    }, 
+    {
+        "challenge": "MIIIMUMI", 
+        "correct": "MIIIMUMIU", 
+        "incorrect": "MIIIIMUMI", 
+        "rule": "I\"->IU\"", 
+        "score": 129140163.0, 
+        "stimulus": 209
+    }, 
+    {
+        "challenge": "MUMUUI", 
+        "correct": "MUMUUIU", 
+        "incorrect": "MUMUMUI", 
+        "rule": "I\"->IU\"", 
+        "score": 1594323.0, 
+        "stimulus": 210
+    }, 
+    {
+        "challenge": "IUIIMI", 
+        "correct": "IUIIMIU", 
+        "incorrect": "IUIMIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 3188646.0, 
+        "stimulus": 211
+    }, 
+    {
+        "challenge": "UUUIUMMI", 
+        "correct": "UUUIUMMIU", 
+        "incorrect": "UUUIUUMMI", 
+        "rule": "I\"->IU\"", 
+        "score": 86093442.0, 
+        "stimulus": 212
+    }, 
+    {
+        "challenge": "IMMUI", 
+        "correct": "IMMUIU", 
+        "incorrect": "IMMUMI", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 213
+    }, 
+    {
+        "challenge": "IUII", 
+        "correct": "IUIIU", 
+        "incorrect": "UIUII", 
+        "rule": "I\"->IU\"", 
+        "score": 39366.0, 
+        "stimulus": 214
+    }, 
+    {
+        "challenge": "MIUUI", 
+        "correct": "MIUUIU", 
+        "incorrect": "MIUUIM", 
+        "rule": "I\"->IU\"", 
+        "score": 59049.0, 
+        "stimulus": 215
+    }, 
+    {
+        "challenge": "MMUUI", 
+        "correct": "MMUUIU", 
+        "incorrect": "MMUUIM", 
+        "rule": "I\"->IU\"", 
+        "score": 59049.0, 
+        "stimulus": 216
+    }, 
+    {
+        "challenge": "IMMMI", 
+        "correct": "IMMMIU", 
+        "incorrect": "IMMMII", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 217
+    }, 
+    {
+        "challenge": "IIIIIUI", 
+        "correct": "IIIIIUIU", 
+        "incorrect": "IIIIIUII", 
+        "rule": "I\"->IU\"", 
+        "score": 3587226.75, 
+        "stimulus": 218
+    }, 
+    {
+        "challenge": "MMMIMI", 
+        "correct": "MMMIMIU", 
+        "incorrect": "MMUMIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 3188646.0, 
+        "stimulus": 219
+    }, 
+    {
+        "challenge": "MMIMUUUI", 
+        "correct": "MMIMUUUIU", 
+        "incorrect": "MMIMUUMUI", 
+        "rule": "I\"->IU\"", 
+        "score": 86093442.0, 
+        "stimulus": 220
+    }, 
+    {
+        "challenge": "UIMUMII", 
+        "correct": "UIMUMIIU", 
+        "incorrect": "UIMUMIIM", 
+        "rule": "I\"->IU\"", 
+        "score": 14348907.0, 
+        "stimulus": 221
+    }, 
+    {
+        "challenge": "MIMII", 
+        "correct": "MIMIIU", 
+        "incorrect": "MMIMII", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 222
+    }, 
+    {
+        "challenge": "IMII", 
+        "correct": "IMIIU", 
+        "incorrect": "IMIII", 
+        "rule": "I\"->IU\"", 
+        "score": 19683.0, 
+        "stimulus": 223
+    }, 
+    {
+        "challenge": "IMIII", 
+        "correct": "IMIIIU", 
+        "incorrect": "IMIIIM", 
+        "rule": "I\"->IU\"", 
+        "score": 88573.5, 
+        "stimulus": 224
+    }, 
+    {
+        "challenge": "IMUI", 
+        "correct": "IMUIU", 
+        "incorrect": "IMUUI", 
+        "rule": "I\"->IU\"", 
+        "score": 39366.0, 
+        "stimulus": 225
+    }, 
+    {
+        "challenge": "UUIII", 
+        "correct": "UUIIIU", 
+        "incorrect": "UUIIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 118098.0, 
+        "stimulus": 226
+    }, 
+    {
+        "challenge": "UIUMI", 
+        "correct": "UIUMIU", 
+        "incorrect": "UMIUMI", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 227
+    }, 
+    {
+        "challenge": "IIUMI", 
+        "correct": "IIUMIU", 
+        "incorrect": "IIUMIM", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 228
+    }, 
+    {
+        "challenge": "IIMII", 
+        "correct": "IIMIIU", 
+        "incorrect": "IIUMII", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 229
+    }, 
+    {
+        "challenge": "MUMUI", 
+        "correct": "MUMUIU", 
+        "incorrect": "MUMUII", 
+        "rule": "I\"->IU\"", 
+        "score": 88573.5, 
+        "stimulus": 230
+    }, 
+    {
+        "challenge": "UIMUI", 
+        "correct": "UIMUIU", 
+        "incorrect": "UUIMUI", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 231
+    }, 
+    {
+        "challenge": "UMIUUI", 
+        "correct": "UMIUUIU", 
+        "incorrect": "UMIUUMI", 
+        "rule": "I\"->IU\"", 
+        "score": 1594323.0, 
+        "stimulus": 232
+    }, 
+    {
+        "challenge": "IIUII", 
+        "correct": "IIUIIU", 
+        "incorrect": "IIUIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 233
+    }, 
+    {
+        "challenge": "IIIMUMI", 
+        "correct": "IIIMUMIU", 
+        "incorrect": "IIIMMUMI", 
+        "rule": "I\"->IU\"", 
+        "score": 14348907.0, 
+        "stimulus": 234
+    }, 
+    {
+        "challenge": "IUUUMI", 
+        "correct": "IUUUMIU", 
+        "incorrect": "IUUUIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 1062882.0, 
+        "stimulus": 235
+    }, 
+    {
+        "challenge": "MUIMII", 
+        "correct": "MUIMIIU", 
+        "incorrect": "MUUIMII", 
+        "rule": "I\"->IU\"", 
+        "score": 3188646.0, 
+        "stimulus": 236
+    }, 
+    {
+        "challenge": "UMUUI", 
+        "correct": "UMUUIU", 
+        "incorrect": "UMMUUI", 
+        "rule": "I\"->IU\"", 
+        "score": 177147.0, 
+        "stimulus": 237
+    }, 
+    {
+        "challenge": "MIIIIMI", 
+        "correct": "MIIIIMIU", 
+        "incorrect": "MIIIUIMI", 
+        "rule": "I\"->IU\"", 
+        "score": 9565938.0, 
+        "stimulus": 238
+    }, 
+    {
+        "challenge": "UIIUI", 
+        "correct": "UIIUIU", 
+        "incorrect": "UIIUMI", 
+        "rule": "I\"->IU\"", 
+        "score": 354294.0, 
+        "stimulus": 239
+    }, 
+    {
+        "challenge": "UUUIII", 
+        "correct": "UUUU", 
+        "incorrect": "UMII", 
+        "rule": "III->U", 
+        "score": 44286.75, 
+        "stimulus": 240
+    }, 
+    {
+        "challenge": "UIIIMI", 
+        "correct": "UUMI", 
+        "incorrect": "UMIM", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 241
+    }, 
+    {
+        "challenge": "MUIIIUU", 
+        "correct": "MUUUU", 
+        "incorrect": "MUUIU", 
+        "rule": "III->U", 
+        "score": 265720.5, 
+        "stimulus": 242
+    }, 
+    {
+        "challenge": "MIIIMUUM", 
+        "correct": "MUMUUM", 
+        "incorrect": "IMIUUM", 
+        "rule": "III->U", 
+        "score": 7174453.5, 
+        "stimulus": 243
+    }, 
+    {
+        "challenge": "MIIIU", 
+        "correct": "MUU", 
+        "incorrect": "MMU", 
+        "rule": "III->U", 
+        "score": 3280.5, 
+        "stimulus": 244
+    }, 
+    {
+        "challenge": "UMIIIIU", 
+        "correct": "UMUIU", 
+        "incorrect": "UUIII", 
+        "rule": "III->U", 
+        "score": 797161.5, 
+        "stimulus": 245
+    }, 
+    {
+        "challenge": "MIIII", 
+        "correct": "MUI", 
+        "incorrect": "UII", 
+        "rule": "III->U", 
+        "score": 3280.5, 
+        "stimulus": 246
+    }, 
+    {
+        "challenge": "MUIII", 
+        "correct": "MUU", 
+        "incorrect": "IMI", 
+        "rule": "III->U", 
+        "score": 6561.0, 
+        "stimulus": 247
+    }, 
+    {
+        "challenge": "MIIIIMM", 
+        "correct": "MIUMM", 
+        "incorrect": "MMIMM", 
+        "rule": "III->U", 
+        "score": 531441.0, 
+        "stimulus": 248
+    }, 
+    {
+        "challenge": "IIIMI", 
+        "correct": "UMI", 
+        "incorrect": "IIU", 
+        "rule": "III->U", 
+        "score": 9841.5, 
+        "stimulus": 249
+    }, 
+    {
+        "challenge": "UIII", 
+        "correct": "UU", 
+        "incorrect": "MI", 
+        "rule": "III->U", 
+        "score": 729.0, 
+        "stimulus": 250
+    }, 
+    {
+        "challenge": "III", 
+        "correct": "U", 
+        "incorrect": "M", 
+        "rule": "III->U", 
+        "score": 40.5, 
+        "stimulus": 251
+    }, 
+    {
+        "challenge": "IIIM", 
+        "correct": "UM", 
+        "incorrect": "MI", 
+        "rule": "III->U", 
+        "score": 1458.0, 
+        "stimulus": 252
+    }, 
+    {
+        "challenge": "IUMUUIIIU", 
+        "correct": "IUMUUUU", 
+        "incorrect": "IMUUIMI", 
+        "rule": "III->U", 
+        "score": 86093442.0, 
+        "stimulus": 253
+    }, 
+    {
+        "challenge": "IUIMIIIM", 
+        "correct": "IUIMUM", 
+        "incorrect": "MUIMIM", 
+        "rule": "III->U", 
+        "score": 9565938.0, 
+        "stimulus": 254
+    }, 
+    {
+        "challenge": "MIII", 
+        "correct": "MU", 
+        "incorrect": "MM", 
+        "rule": "III->U", 
+        "score": 243.0, 
+        "stimulus": 255
+    }, 
+    {
+        "challenge": "MIIIUM", 
+        "correct": "MUUM", 
+        "incorrect": "MMIM", 
+        "rule": "III->U", 
+        "score": 118098.0, 
+        "stimulus": 256
+    }, 
+    {
+        "challenge": "IIIIMI", 
+        "correct": "IUMI", 
+        "incorrect": "MIII", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 257
+    }, 
+    {
+        "challenge": "IIII", 
+        "correct": "IU", 
+        "incorrect": "IM", 
+        "rule": "III->U", 
+        "score": 243.0, 
+        "stimulus": 258
+    }, 
+    {
+        "challenge": "IIIIM", 
+        "correct": "IUM", 
+        "incorrect": "IUI", 
+        "rule": "III->U", 
+        "score": 3280.5, 
+        "stimulus": 259
+    }, 
+    {
+        "challenge": "MIMIIIU", 
+        "correct": "MIMUU", 
+        "incorrect": "IUIII", 
+        "rule": "III->U", 
+        "score": 2657205.0, 
+        "stimulus": 260
+    }, 
+    {
+        "challenge": "IMIIIMMM", 
+        "correct": "IMUMMM", 
+        "incorrect": "MUIIMM", 
+        "rule": "III->U", 
+        "score": 14348907.0, 
+        "stimulus": 261
+    }, 
+    {
+        "challenge": "IIIU", 
+        "correct": "UU", 
+        "incorrect": "MU", 
+        "rule": "III->U", 
+        "score": 729.0, 
+        "stimulus": 262
+    }, 
+    {
+        "challenge": "IIIIU", 
+        "correct": "UIU", 
+        "incorrect": "IIM", 
+        "rule": "III->U", 
+        "score": 6561.0, 
+        "stimulus": 263
+    }, 
+    {
+        "challenge": "IMIII", 
+        "correct": "IMU", 
+        "incorrect": "IMM", 
+        "rule": "III->U", 
+        "score": 3280.5, 
+        "stimulus": 264
+    }, 
+    {
+        "challenge": "IMIIIU", 
+        "correct": "IMUU", 
+        "incorrect": "IIIM", 
+        "rule": "III->U", 
+        "score": 177147.0, 
+        "stimulus": 265
+    }, 
+    {
+        "challenge": "IIIIU", 
+        "correct": "IUU", 
+        "incorrect": "IIM", 
+        "rule": "III->U", 
+        "score": 6561.0, 
+        "stimulus": 266
+    }, 
+    {
+        "challenge": "IIIMUUI", 
+        "correct": "UMUUI", 
+        "incorrect": "UIMUI", 
+        "rule": "III->U", 
+        "score": 354294.0, 
+        "stimulus": 267
+    }, 
+    {
+        "challenge": "IUIMIIII", 
+        "correct": "IUIMIU", 
+        "incorrect": "MUMIII", 
+        "rule": "III->U", 
+        "score": 6377292.0, 
+        "stimulus": 268
+    }, 
+    {
+        "challenge": "MIIIM", 
+        "correct": "MUM", 
+        "incorrect": "IUM", 
+        "rule": "III->U", 
+        "score": 3280.5, 
+        "stimulus": 269
+    }, 
+    {
+        "challenge": "IIIUUI", 
+        "correct": "UUUI", 
+        "incorrect": "IIMI", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 270
+    }, 
+    {
+        "challenge": "UIIII", 
+        "correct": "UUI", 
+        "incorrect": "IUI", 
+        "rule": "III->U", 
+        "score": 2187.0, 
+        "stimulus": 271
+    }, 
+    {
+        "challenge": "IIIII", 
+        "correct": "IIU", 
+        "incorrect": "MII", 
+        "rule": "III->U", 
+        "score": 3280.5, 
+        "stimulus": 272
+    }, 
+    {
+        "challenge": "UIIIIIIU", 
+        "correct": "UIIUIU", 
+        "incorrect": "UIIUII", 
+        "rule": "III->U", 
+        "score": 1195742.25, 
+        "stimulus": 273
+    }, 
+    {
+        "challenge": "IIIUUM", 
+        "correct": "UUUM", 
+        "incorrect": "IMUM", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 274
+    }, 
+    {
+        "challenge": "IIIII", 
+        "correct": "IUI", 
+        "incorrect": "IMI", 
+        "rule": "III->U", 
+        "score": 1640.25, 
+        "stimulus": 275
+    }, 
+    {
+        "challenge": "UMIII", 
+        "correct": "UMU", 
+        "incorrect": "UMM", 
+        "rule": "III->U", 
+        "score": 3280.5, 
+        "stimulus": 276
+    }, 
+    {
+        "challenge": "MIIIIMU", 
+        "correct": "MIUMU", 
+        "incorrect": "MMIIM", 
+        "rule": "III->U", 
+        "score": 797161.5, 
+        "stimulus": 277
+    }, 
+    {
+        "challenge": "IMIUIIIU", 
+        "correct": "IMIUUU", 
+        "incorrect": "MIIIMU", 
+        "rule": "III->U", 
+        "score": 19131876.0, 
+        "stimulus": 278
+    }, 
+    {
+        "challenge": "IIII", 
+        "correct": "UI", 
+        "incorrect": "MI", 
+        "rule": "III->U", 
+        "score": 243.0, 
+        "stimulus": 279
+    }, 
+    {
+        "challenge": "MIIIMI", 
+        "correct": "MUMI", 
+        "incorrect": "MUII", 
+        "rule": "III->U", 
+        "score": 29524.5, 
+        "stimulus": 280
+    }, 
+    {
+        "challenge": "MIIIIII", 
+        "correct": "MIIIU", 
+        "incorrect": "UIIII", 
+        "rule": "III->U", 
+        "score": 212576.4, 
+        "stimulus": 281
+    }, 
+    {
+        "challenge": "IIIIII", 
+        "correct": "IUII", 
+        "incorrect": "MIII", 
+        "rule": "III->U", 
+        "score": 23619.6, 
+        "stimulus": 282
+    }, 
+    {
+        "challenge": "MIIIIU", 
+        "correct": "MUIU", 
+        "incorrect": "UIIU", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 283
+    }, 
+    {
+        "challenge": "IIIUUUMM", 
+        "correct": "UUUUMM", 
+        "incorrect": "IIUUIM", 
+        "rule": "III->U", 
+        "score": 4782969.0, 
+        "stimulus": 284
+    }, 
+    {
+        "challenge": "IIIIIIMMI", 
+        "correct": "IIIUMMI", 
+        "incorrect": "IIIUIMI", 
+        "rule": "III->U", 
+        "score": 10761680.25, 
+        "stimulus": 285
+    }, 
+    {
+        "challenge": "UIIII", 
+        "correct": "UIU", 
+        "incorrect": "IUI", 
+        "rule": "III->U", 
+        "score": 4374.0, 
+        "stimulus": 286
+    }, 
+    {
+        "challenge": "IIIIMM", 
+        "correct": "UIMM", 
+        "incorrect": "MIIM", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 287
+    }, 
+    {
+        "challenge": "IIIUU", 
+        "correct": "UUU", 
+        "incorrect": "UII", 
+        "rule": "III->U", 
+        "score": 6561.0, 
+        "stimulus": 288
+    }, 
+    {
+        "challenge": "UIIIIIU", 
+        "correct": "UUIIU", 
+        "incorrect": "UIIIM", 
+        "rule": "III->U", 
+        "score": 354294.0, 
+        "stimulus": 289
+    }, 
+    {
+        "challenge": "MMIII", 
+        "correct": "MMU", 
+        "incorrect": "MMM", 
+        "rule": "III->U", 
+        "score": 2187.0, 
+        "stimulus": 290
+    }, 
+    {
+        "challenge": "UUIII", 
+        "correct": "UUU", 
+        "incorrect": "UIU", 
+        "rule": "III->U", 
+        "score": 2187.0, 
+        "stimulus": 291
+    }, 
+    {
+        "challenge": "IIIMMU", 
+        "correct": "UMMU", 
+        "incorrect": "UIMU", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 292
+    }, 
+    {
+        "challenge": "IIIMIMI", 
+        "correct": "UMIMI", 
+        "incorrect": "IIIMU", 
+        "rule": "III->U", 
+        "score": 797161.5, 
+        "stimulus": 293
+    }, 
+    {
+        "challenge": "MIIIIM", 
+        "correct": "MUIM", 
+        "incorrect": "IMII", 
+        "rule": "III->U", 
+        "score": 88573.5, 
+        "stimulus": 294
+    }, 
+    {
+        "challenge": "IIIMMI", 
+        "correct": "UMMI", 
+        "incorrect": "UIMI", 
+        "rule": "III->U", 
+        "score": 29524.5, 
+        "stimulus": 295
+    }, 
+    {
+        "challenge": "IIIIIMIIU", 
+        "correct": "IIUMIIU", 
+        "incorrect": "IUIIIII", 
+        "rule": "III->U", 
+        "score": 57395628.0, 
+        "stimulus": 296
+    }, 
+    {
+        "challenge": "MIIIMU", 
+        "correct": "MUMU", 
+        "incorrect": "IIUU", 
+        "rule": "III->U", 
+        "score": 177147.0, 
+        "stimulus": 297
+    }, 
+    {
+        "challenge": "IIIII", 
+        "correct": "UII", 
+        "incorrect": "MII", 
+        "rule": "III->U", 
+        "score": 1640.25, 
+        "stimulus": 298
+    }, 
+    {
+        "challenge": "UUMIII", 
+        "correct": "UUMU", 
+        "incorrect": "UUIU", 
+        "rule": "III->U", 
+        "score": 19683.0, 
+        "stimulus": 299
+    }, 
+    {
+        "challenge": "IIIIUI", 
+        "correct": "IUUI", 
+        "incorrect": "IMII", 
+        "rule": "III->U", 
+        "score": 39366.0, 
+        "stimulus": 300
+    }, 
+    {
+        "challenge": "IIIUUU", 
+        "correct": "UUUU", 
+        "incorrect": "IMUU", 
+        "rule": "III->U", 
+        "score": 39366.0, 
+        "stimulus": 301
+    }, 
+    {
+        "challenge": "IIIUUIUUU", 
+        "correct": "UUUIUUU", 
+        "incorrect": "IIUIUUI", 
+        "rule": "III->U", 
+        "score": 32285040.75, 
+        "stimulus": 302
+    }, 
+    {
+        "challenge": "UIIIIUU", 
+        "correct": "UIUUU", 
+        "incorrect": "IIUUU", 
+        "rule": "III->U", 
+        "score": 177147.0, 
+        "stimulus": 303
+    }, 
+    {
+        "challenge": "IMUUIII", 
+        "correct": "IMUUU", 
+        "incorrect": "UUUII", 
+        "rule": "III->U", 
+        "score": 708588.0, 
+        "stimulus": 304
+    }, 
+    {
+        "challenge": "UUIMMMIII", 
+        "correct": "UUIMMMU", 
+        "incorrect": "UUIIIII", 
+        "rule": "III->U", 
+        "score": 86093442.0, 
+        "stimulus": 305
+    }, 
+    {
+        "challenge": "IIIIUU", 
+        "correct": "UIUU", 
+        "incorrect": "UIII", 
+        "rule": "III->U", 
+        "score": 39366.0, 
+        "stimulus": 306
+    }, 
+    {
+        "challenge": "IUUIII", 
+        "correct": "IUUU", 
+        "incorrect": "IUIU", 
+        "rule": "III->U", 
+        "score": 19683.0, 
+        "stimulus": 307
+    }, 
+    {
+        "challenge": "UIIIII", 
+        "correct": "UIUI", 
+        "incorrect": "MIII", 
+        "rule": "III->U", 
+        "score": 29524.5, 
+        "stimulus": 308
+    }, 
+    {
+        "challenge": "IUIIII", 
+        "correct": "IUUI", 
+        "incorrect": "IIIU", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 309
+    }, 
+    {
+        "challenge": "IIIIUM", 
+        "correct": "UIUM", 
+        "incorrect": "UIIU", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 310
+    }, 
+    {
+        "challenge": "IIIIMUU", 
+        "correct": "IUMUU", 
+        "incorrect": "IIIMI", 
+        "rule": "III->U", 
+        "score": 708588.0, 
+        "stimulus": 311
+    }, 
+    {
+        "challenge": "IIMIIIM", 
+        "correct": "IIMUM", 
+        "incorrect": "IIUIM", 
+        "rule": "III->U", 
+        "score": 1062882.0, 
+        "stimulus": 312
+    }, 
+    {
+        "challenge": "MIMIII", 
+        "correct": "MIMU", 
+        "incorrect": "MMIM", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 313
+    }, 
+    {
+        "challenge": "MIIIIUIU", 
+        "correct": "MIUUIU", 
+        "incorrect": "UIIIIU", 
+        "rule": "III->U", 
+        "score": 7174453.5, 
+        "stimulus": 314
+    }, 
+    {
+        "challenge": "IIIIMIII", 
+        "correct": "IUMIII", 
+        "incorrect": "IIMIIU", 
+        "rule": "III->U", 
+        "score": 2391484.5, 
+        "stimulus": 315
+    }, 
+    {
+        "challenge": "IIIMU", 
+        "correct": "UMU", 
+        "incorrect": "MIM", 
+        "rule": "III->U", 
+        "score": 19683.0, 
+        "stimulus": 316
+    }, 
+    {
+        "challenge": "MUIIIIU", 
+        "correct": "MUIUU", 
+        "incorrect": "MIMIU", 
+        "rule": "III->U", 
+        "score": 797161.5, 
+        "stimulus": 317
+    }, 
+    {
+        "challenge": "UIIIIIUM", 
+        "correct": "UIIUUM", 
+        "incorrect": "UIIIMM", 
+        "rule": "III->U", 
+        "score": 3188646.0, 
+        "stimulus": 318
+    }, 
+    {
+        "challenge": "MMMIIIUU", 
+        "correct": "MMMUUU", 
+        "incorrect": "IMIIIU", 
+        "rule": "III->U", 
+        "score": 9565938.0, 
+        "stimulus": 319
+    }, 
+    {
+        "challenge": "IIIIII", 
+        "correct": "IIIU", 
+        "incorrect": "IIIM", 
+        "rule": "III->U", 
+        "score": 11809.8, 
+        "stimulus": 320
+    }, 
+    {
+        "challenge": "MIIIIMMI", 
+        "correct": "MUIMMI", 
+        "incorrect": "MIMIMM", 
+        "rule": "III->U", 
+        "score": 4782969.0, 
+        "stimulus": 321
+    }, 
+    {
+        "challenge": "UMIIII", 
+        "correct": "UMIU", 
+        "incorrect": "UMIM", 
+        "rule": "III->U", 
+        "score": 19683.0, 
+        "stimulus": 322
+    }, 
+    {
+        "challenge": "IIIMII", 
+        "correct": "UMII", 
+        "incorrect": "IIMM", 
+        "rule": "III->U", 
+        "score": 118098.0, 
+        "stimulus": 323
+    }, 
+    {
+        "challenge": "IIIUII", 
+        "correct": "UUII", 
+        "incorrect": "IMIU", 
+        "rule": "III->U", 
+        "score": 88573.5, 
+        "stimulus": 324
+    }, 
+    {
+        "challenge": "IIIIM", 
+        "correct": "UIM", 
+        "incorrect": "IMI", 
+        "rule": "III->U", 
+        "score": 6561.0, 
+        "stimulus": 325
+    }, 
+    {
+        "challenge": "UMUIII", 
+        "correct": "UMUU", 
+        "incorrect": "UMIU", 
+        "rule": "III->U", 
+        "score": 29524.5, 
+        "stimulus": 326
+    }, 
+    {
+        "challenge": "IIIMUMII", 
+        "correct": "UMUMII", 
+        "incorrect": "IMIMII", 
+        "rule": "III->U", 
+        "score": 4782969.0, 
+        "stimulus": 327
+    }, 
+    {
+        "challenge": "UMIIIU", 
+        "correct": "UMUU", 
+        "incorrect": "IMIU", 
+        "rule": "III->U", 
+        "score": 118098.0, 
+        "stimulus": 328
+    }, 
+    {
+        "challenge": "UUUUIII", 
+        "correct": "UUUUU", 
+        "incorrect": "UUIIM", 
+        "rule": "III->U", 
+        "score": 318864.6, 
+        "stimulus": 329
+    }, 
+    {
+        "challenge": "IMUIII", 
+        "correct": "IMUU", 
+        "incorrect": "IMMI", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 330
+    }, 
+    {
+        "challenge": "MIUIII", 
+        "correct": "MIUU", 
+        "incorrect": "MUMI", 
+        "rule": "III->U", 
+        "score": 88573.5, 
+        "stimulus": 331
+    }, 
+    {
+        "challenge": "UIIIIUI", 
+        "correct": "UUIUI", 
+        "incorrect": "IIUII", 
+        "rule": "III->U", 
+        "score": 531441.0, 
+        "stimulus": 332
+    }, 
+    {
+        "challenge": "IIIMMIM", 
+        "correct": "UMMIM", 
+        "incorrect": "IIIUM", 
+        "rule": "III->U", 
+        "score": 2125764.0, 
+        "stimulus": 333
+    }, 
+    {
+        "challenge": "UIMIUIIIM", 
+        "correct": "UIMIUUM", 
+        "incorrect": "IUIIIIM", 
+        "rule": "III->U", 
+        "score": 172186884.0, 
+        "stimulus": 334
+    }, 
+    {
+        "challenge": "UIIIIIMI", 
+        "correct": "UIIUMI", 
+        "incorrect": "IIIIUM", 
+        "rule": "III->U", 
+        "score": 3587226.75, 
+        "stimulus": 335
+    }, 
+    {
+        "challenge": "IMIUIIII", 
+        "correct": "IMIUIU", 
+        "incorrect": "MIUIIU", 
+        "rule": "III->U", 
+        "score": 3188646.0, 
+        "stimulus": 336
+    }, 
+    {
+        "challenge": "IIIIMIMI", 
+        "correct": "UIMIMI", 
+        "incorrect": "IIIIMU", 
+        "rule": "III->U", 
+        "score": 4782969.0, 
+        "stimulus": 337
+    }, 
+    {
+        "challenge": "IIIIIIMU", 
+        "correct": "IIIUMU", 
+        "incorrect": "IIIMMU", 
+        "rule": "III->U", 
+        "score": 1195742.25, 
+        "stimulus": 338
+    }, 
+    {
+        "challenge": "MMIIIMM", 
+        "correct": "MMUMM", 
+        "incorrect": "MMIUM", 
+        "rule": "III->U", 
+        "score": 1062882.0, 
+        "stimulus": 339
+    }, 
+    {
+        "challenge": "IIIIMMI", 
+        "correct": "IUMMI", 
+        "incorrect": "IIMII", 
+        "rule": "III->U", 
+        "score": 354294.0, 
+        "stimulus": 340
+    }, 
+    {
+        "challenge": "MIIIIM", 
+        "correct": "MIUM", 
+        "incorrect": "IIUM", 
+        "rule": "III->U", 
+        "score": 29524.5, 
+        "stimulus": 341
+    }, 
+    {
+        "challenge": "IMUUIIIM", 
+        "correct": "IMUUUM", 
+        "incorrect": "MUIMIM", 
+        "rule": "III->U", 
+        "score": 9565938.0, 
+        "stimulus": 342
+    }, 
+    {
+        "challenge": "MIIII", 
+        "correct": "MIU", 
+        "incorrect": "IIU", 
+        "rule": "III->U", 
+        "score": 1640.25, 
+        "stimulus": 343
+    }, 
+    {
+        "challenge": "IIIIIMIM", 
+        "correct": "IIUMIM", 
+        "incorrect": "MIIIII", 
+        "rule": "III->U", 
+        "score": 6377292.0, 
+        "stimulus": 344
+    }, 
+    {
+        "challenge": "UIIIMU", 
+        "correct": "UUMU", 
+        "incorrect": "IUMU", 
+        "rule": "III->U", 
+        "score": 59049.0, 
+        "stimulus": 345
+    }, 
+    {
+        "challenge": "UIIIIMII", 
+        "correct": "UIUMII", 
+        "incorrect": "UIMIMI", 
+        "rule": "III->U", 
+        "score": 3188646.0, 
+        "stimulus": 346
+    }, 
+    {
+        "challenge": "MMIIII", 
+        "correct": "MMUI", 
+        "incorrect": "MMMI", 
+        "rule": "III->U", 
+        "score": 19683.0, 
+        "stimulus": 347
+    }, 
+    {
+        "challenge": "IIIUI", 
+        "correct": "UUI", 
+        "incorrect": "UII", 
+        "rule": "III->U", 
+        "score": 3280.5, 
+        "stimulus": 348
+    }, 
+    {
+        "challenge": "IIIUUUMU", 
+        "correct": "UUUUMU", 
+        "incorrect": "IUMUMU", 
+        "rule": "III->U", 
+        "score": 3188646.0, 
+        "stimulus": 349
+    }, 
+    {
+        "challenge": "UMIMIIIMU", 
+        "correct": "UMIMUMU", 
+        "incorrect": "UUIIIIM", 
+        "rule": "III->U", 
+        "score": 215233605.0, 
+        "stimulus": 350
+    }, 
+    {
+        "challenge": "IIIIIII", 
+        "correct": "UIIII", 
+        "incorrect": "IIMII", 
+        "rule": "III->U", 
+        "score": 177147.0, 
+        "stimulus": 351
+    }, 
+    {
+        "challenge": "MUUIIIIM", 
+        "correct": "MUUIUM", 
+        "incorrect": "UIIUIM", 
+        "rule": "III->U", 
+        "score": 4782969.0, 
+        "stimulus": 352
+    }, 
+    {
+        "challenge": "MIMIIIII", 
+        "correct": "MIMIIU", 
+        "incorrect": "MIIMII", 
+        "rule": "III->U", 
+        "score": 2391484.5, 
+        "stimulus": 353
+    }, 
+    {
+        "challenge": "UIIIMMM", 
+        "correct": "UUMMM", 
+        "incorrect": "IIMUM", 
+        "rule": "III->U", 
+        "score": 1594323.0, 
+        "stimulus": 354
+    }, 
+    {
+        "challenge": "IIIMUUM", 
+        "correct": "UMUUM", 
+        "incorrect": "UIMUM", 
+        "rule": "III->U", 
+        "score": 531441.0, 
+        "stimulus": 355
+    }, 
+    {
+        "challenge": "MMIIIIIII", 
+        "correct": "MMIIUII", 
+        "incorrect": "IUIIIII", 
+        "rule": "III->U", 
+        "score": 25828032.6, 
+        "stimulus": 356
+    }, 
+    {
+        "challenge": "MIIIUUU", 
+        "correct": "MUUUU", 
+        "incorrect": "IUIUU", 
+        "rule": "III->U", 
+        "score": 354294.0, 
+        "stimulus": 357
+    }, 
+    {
+        "challenge": "MIIIII", 
+        "correct": "MIUI", 
+        "incorrect": "MIMI", 
+        "rule": "III->U", 
+        "score": 14762.25, 
+        "stimulus": 358
+    }, 
+    {
+        "challenge": "MUIIIMI", 
+        "correct": "MUUMI", 
+        "incorrect": "MIUMI", 
+        "rule": "III->U", 
+        "score": 265720.5, 
+        "stimulus": 359
+    }, 
+    {
+        "challenge": "UUMI", 
+        "correct": "MI", 
+        "incorrect": "UU", 
+        "rule": "UU->e", 
+        "score": 729.0, 
+        "stimulus": 360
+    }, 
+    {
+        "challenge": "UUMUMI", 
+        "correct": "MUMI", 
+        "incorrect": "UMUI", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 361
+    }, 
+    {
+        "challenge": "UUII", 
+        "correct": "II", 
+        "incorrect": "UI", 
+        "rule": "UU->e", 
+        "score": 364.5, 
+        "stimulus": 362
+    }, 
+    {
+        "challenge": "UUUMII", 
+        "correct": "UMII", 
+        "incorrect": "UUII", 
+        "rule": "UU->e", 
+        "score": 19683.0, 
+        "stimulus": 363
+    }, 
+    {
+        "challenge": "MUUM", 
+        "correct": "MM", 
+        "incorrect": "UM", 
+        "rule": "UU->e", 
+        "score": 364.5, 
+        "stimulus": 364
+    }, 
+    {
+        "challenge": "IUMUU", 
+        "correct": "IUM", 
+        "incorrect": "IMU", 
+        "rule": "UU->e", 
+        "score": 13122.0, 
+        "stimulus": 365
+    }, 
+    {
+        "challenge": "MUUU", 
+        "correct": "MU", 
+        "incorrect": "UU", 
+        "rule": "UU->e", 
+        "score": 243.0, 
+        "stimulus": 366
+    }, 
+    {
+        "challenge": "MUUI", 
+        "correct": "MI", 
+        "incorrect": "UI", 
+        "rule": "UU->e", 
+        "score": 243.0, 
+        "stimulus": 367
+    }, 
+    {
+        "challenge": "IUU", 
+        "correct": "I", 
+        "incorrect": "U", 
+        "rule": "UU->e", 
+        "score": 81.0, 
+        "stimulus": 368
+    }, 
+    {
+        "challenge": "UUUUI", 
+        "correct": "UUI", 
+        "incorrect": "UUU", 
+        "rule": "UU->e", 
+        "score": 1640.25, 
+        "stimulus": 369
+    }, 
+    {
+        "challenge": "UUI", 
+        "correct": "I", 
+        "incorrect": "U", 
+        "rule": "UU->e", 
+        "score": 40.5, 
+        "stimulus": 370
+    }, 
+    {
+        "challenge": "UUUI", 
+        "correct": "UI", 
+        "incorrect": "UU", 
+        "rule": "UU->e", 
+        "score": 243.0, 
+        "stimulus": 371
+    }, 
+    {
+        "challenge": "UUIII", 
+        "correct": "III", 
+        "incorrect": "UUI", 
+        "rule": "UU->e", 
+        "score": 4374.0, 
+        "stimulus": 372
+    }, 
+    {
+        "challenge": "UUUUMI", 
+        "correct": "UUMI", 
+        "incorrect": "UUUI", 
+        "rule": "UU->e", 
+        "score": 14762.25, 
+        "stimulus": 373
+    }, 
+    {
+        "challenge": "UUMMMUU", 
+        "correct": "UUMMM", 
+        "incorrect": "UUMMU", 
+        "rule": "UU->e", 
+        "score": 265720.5, 
+        "stimulus": 374
+    }, 
+    {
+        "challenge": "UUM", 
+        "correct": "M", 
+        "incorrect": "U", 
+        "rule": "UU->e", 
+        "score": 81.0, 
+        "stimulus": 375
+    }, 
+    {
+        "challenge": "IIUUIMI", 
+        "correct": "IIIMI", 
+        "incorrect": "IUUMI", 
+        "rule": "UU->e", 
+        "score": 531441.0, 
+        "stimulus": 376
+    }, 
+    {
+        "challenge": "MUU", 
+        "correct": "M", 
+        "incorrect": "U", 
+        "rule": "UU->e", 
+        "score": 40.5, 
+        "stimulus": 377
+    }, 
+    {
+        "challenge": "IUUU", 
+        "correct": "IU", 
+        "incorrect": "UU", 
+        "rule": "UU->e", 
+        "score": 364.5, 
+        "stimulus": 378
+    }, 
+    {
+        "challenge": "UUMU", 
+        "correct": "MU", 
+        "incorrect": "UM", 
+        "rule": "UU->e", 
+        "score": 1458.0, 
+        "stimulus": 379
+    }, 
+    {
+        "challenge": "UUUIM", 
+        "correct": "UIM", 
+        "incorrect": "UUM", 
+        "rule": "UU->e", 
+        "score": 3280.5, 
+        "stimulus": 380
+    }, 
+    {
+        "challenge": "IUUIIUII", 
+        "correct": "IIIUII", 
+        "incorrect": "UIIUII", 
+        "rule": "UU->e", 
+        "score": 2391484.5, 
+        "stimulus": 381
+    }, 
+    {
+        "challenge": "UUUII", 
+        "correct": "UII", 
+        "incorrect": "UUI", 
+        "rule": "UU->e", 
+        "score": 2187.0, 
+        "stimulus": 382
+    }, 
+    {
+        "challenge": "UUIM", 
+        "correct": "IM", 
+        "incorrect": "UI", 
+        "rule": "UU->e", 
+        "score": 1458.0, 
+        "stimulus": 383
+    }, 
+    {
+        "challenge": "MIUUU", 
+        "correct": "MIU", 
+        "incorrect": "MUU", 
+        "rule": "UU->e", 
+        "score": 2187.0, 
+        "stimulus": 384
+    }, 
+    {
+        "challenge": "IUMUUI", 
+        "correct": "IUMI", 
+        "incorrect": "IMUU", 
+        "rule": "UU->e", 
+        "score": 88573.5, 
+        "stimulus": 385
+    }, 
+    {
+        "challenge": "IUUM", 
+        "correct": "IM", 
+        "incorrect": "UM", 
+        "rule": "UU->e", 
+        "score": 729.0, 
+        "stimulus": 386
+    }, 
+    {
+        "challenge": "MIUUII", 
+        "correct": "MIII", 
+        "incorrect": "IUII", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 387
+    }, 
+    {
+        "challenge": "UUMIMI", 
+        "correct": "MIMI", 
+        "incorrect": "UUMI", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 388
+    }, 
+    {
+        "challenge": "IUUIIUU", 
+        "correct": "IIIUU", 
+        "incorrect": "IUUIU", 
+        "rule": "UU->e", 
+        "score": 797161.5, 
+        "stimulus": 389
+    }, 
+    {
+        "challenge": "UMIIUU", 
+        "correct": "UMII", 
+        "incorrect": "UIIU", 
+        "rule": "UU->e", 
+        "score": 118098.0, 
+        "stimulus": 390
+    }, 
+    {
+        "challenge": "UUIIIM", 
+        "correct": "IIIM", 
+        "incorrect": "UIIM", 
+        "rule": "UU->e", 
+        "score": 29524.5, 
+        "stimulus": 391
+    }, 
+    {
+        "challenge": "UMUUM", 
+        "correct": "UMM", 
+        "incorrect": "MUM", 
+        "rule": "UU->e", 
+        "score": 13122.0, 
+        "stimulus": 392
+    }, 
+    {
+        "challenge": "UUUUM", 
+        "correct": "UUM", 
+        "incorrect": "UUU", 
+        "rule": "UU->e", 
+        "score": 2187.0, 
+        "stimulus": 393
+    }, 
+    {
+        "challenge": "MUUUMII", 
+        "correct": "MUMII", 
+        "incorrect": "MUUII", 
+        "rule": "UU->e", 
+        "score": 177147.0, 
+        "stimulus": 394
+    }, 
+    {
+        "challenge": "MIUU", 
+        "correct": "MI", 
+        "incorrect": "MU", 
+        "rule": "UU->e", 
+        "score": 364.5, 
+        "stimulus": 395
+    }, 
+    {
+        "challenge": "UUUIU", 
+        "correct": "UIU", 
+        "incorrect": "UUI", 
+        "rule": "UU->e", 
+        "score": 6561.0, 
+        "stimulus": 396
+    }, 
+    {
+        "challenge": "IUMUUU", 
+        "correct": "IUMU", 
+        "incorrect": "IMUU", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 397
+    }, 
+    {
+        "challenge": "UMIUU", 
+        "correct": "UMI", 
+        "incorrect": "MIU", 
+        "rule": "UU->e", 
+        "score": 13122.0, 
+        "stimulus": 398
+    }, 
+    {
+        "challenge": "MMUUUUI", 
+        "correct": "MMUUI", 
+        "incorrect": "MMUUU", 
+        "rule": "UU->e", 
+        "score": 132860.25, 
+        "stimulus": 399
+    }, 
+    {
+        "challenge": "IUIUU", 
+        "correct": "IUI", 
+        "incorrect": "IUU", 
+        "rule": "UU->e", 
+        "score": 6561.0, 
+        "stimulus": 400
+    }, 
+    {
+        "challenge": "UUUMIM", 
+        "correct": "UMIM", 
+        "incorrect": "UUUM", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 401
+    }, 
+    {
+        "challenge": "MIUUI", 
+        "correct": "MII", 
+        "incorrect": "MUU", 
+        "rule": "UU->e", 
+        "score": 4374.0, 
+        "stimulus": 402
+    }, 
+    {
+        "challenge": "UUUMMI", 
+        "correct": "UMMI", 
+        "incorrect": "UUMM", 
+        "rule": "UU->e", 
+        "score": 39366.0, 
+        "stimulus": 403
+    }, 
+    {
+        "challenge": "MIIUUM", 
+        "correct": "MIIM", 
+        "incorrect": "MIIU", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 404
+    }, 
+    {
+        "challenge": "UUMMU", 
+        "correct": "MMU", 
+        "incorrect": "UUM", 
+        "rule": "UU->e", 
+        "score": 19683.0, 
+        "stimulus": 405
+    }, 
+    {
+        "challenge": "UUUUUM", 
+        "correct": "UUUM", 
+        "incorrect": "UUUU", 
+        "rule": "UU->e", 
+        "score": 14762.25, 
+        "stimulus": 406
+    }, 
+    {
+        "challenge": "IUUUM", 
+        "correct": "IUM", 
+        "incorrect": "IUU", 
+        "rule": "UU->e", 
+        "score": 3280.5, 
+        "stimulus": 407
+    }, 
+    {
+        "challenge": "UUMUUI", 
+        "correct": "UUMI", 
+        "incorrect": "UUUU", 
+        "rule": "UU->e", 
+        "score": 39366.0, 
+        "stimulus": 408
+    }, 
+    {
+        "challenge": "MUUIUUUM", 
+        "correct": "MUUIUM", 
+        "incorrect": "MUUUUM", 
+        "rule": "UU->e", 
+        "score": 1594323.0, 
+        "stimulus": 409
+    }, 
+    {
+        "challenge": "IUUUI", 
+        "correct": "IUI", 
+        "incorrect": "IUU", 
+        "rule": "UU->e", 
+        "score": 2187.0, 
+        "stimulus": 410
+    }, 
+    {
+        "challenge": "UIUU", 
+        "correct": "UI", 
+        "incorrect": "UU", 
+        "rule": "UU->e", 
+        "score": 729.0, 
+        "stimulus": 411
+    }, 
+    {
+        "challenge": "UUUIMM", 
+        "correct": "UIMM", 
+        "incorrect": "UUUI", 
+        "rule": "UU->e", 
+        "score": 88573.5, 
+        "stimulus": 412
+    }, 
+    {
+        "challenge": "UUIIU", 
+        "correct": "IIU", 
+        "incorrect": "UIU", 
+        "rule": "UU->e", 
+        "score": 6561.0, 
+        "stimulus": 413
+    }, 
+    {
+        "challenge": "UUIIMII", 
+        "correct": "IIMII", 
+        "incorrect": "UUIII", 
+        "rule": "UU->e", 
+        "score": 797161.5, 
+        "stimulus": 414
+    }, 
+    {
+        "challenge": "IUUI", 
+        "correct": "II", 
+        "incorrect": "IU", 
+        "rule": "UU->e", 
+        "score": 364.5, 
+        "stimulus": 415
+    }, 
+    {
+        "challenge": "UUMM", 
+        "correct": "MM", 
+        "incorrect": "UU", 
+        "rule": "UU->e", 
+        "score": 1458.0, 
+        "stimulus": 416
+    }, 
+    {
+        "challenge": "IMMUUI", 
+        "correct": "IMMI", 
+        "incorrect": "IMUI", 
+        "rule": "UU->e", 
+        "score": 29524.5, 
+        "stimulus": 417
+    }, 
+    {
+        "challenge": "MIUUM", 
+        "correct": "MIM", 
+        "incorrect": "MIU", 
+        "rule": "UU->e", 
+        "score": 3280.5, 
+        "stimulus": 418
+    }, 
+    {
+        "challenge": "UUIMM", 
+        "correct": "IMM", 
+        "incorrect": "UIM", 
+        "rule": "UU->e", 
+        "score": 13122.0, 
+        "stimulus": 419
+    }, 
+    {
+        "challenge": "IIUUM", 
+        "correct": "IIM", 
+        "incorrect": "UUM", 
+        "rule": "UU->e", 
+        "score": 13122.0, 
+        "stimulus": 420
+    }, 
+    {
+        "challenge": "IMUUI", 
+        "correct": "IMI", 
+        "incorrect": "IUI", 
+        "rule": "UU->e", 
+        "score": 3280.5, 
+        "stimulus": 421
+    }, 
+    {
+        "challenge": "UUUIUMU", 
+        "correct": "UIUMU", 
+        "incorrect": "UUUIM", 
+        "rule": "UU->e", 
+        "score": 797161.5, 
+        "stimulus": 422
+    }, 
+    {
+        "challenge": "IUUUU", 
+        "correct": "IUU", 
+        "incorrect": "UUU", 
+        "rule": "UU->e", 
+        "score": 2187.0, 
+        "stimulus": 423
+    }, 
+    {
+        "challenge": "IMUMUUU", 
+        "correct": "IMUMU", 
+        "incorrect": "IMMUU", 
+        "rule": "UU->e", 
+        "score": 531441.0, 
+        "stimulus": 424
+    }, 
+    {
+        "challenge": "UUMMMMUM", 
+        "correct": "MMMMUM", 
+        "incorrect": "UUMMUM", 
+        "rule": "UU->e", 
+        "score": 9565938.0, 
+        "stimulus": 425
+    }, 
+    {
+        "challenge": "UIIUUI", 
+        "correct": "UIII", 
+        "incorrect": "UIUU", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 426
+    }, 
+    {
+        "challenge": "UUUM", 
+        "correct": "UM", 
+        "incorrect": "UU", 
+        "rule": "UU->e", 
+        "score": 364.5, 
+        "stimulus": 427
+    }, 
+    {
+        "challenge": "IUUMI", 
+        "correct": "IMI", 
+        "incorrect": "IUU", 
+        "rule": "UU->e", 
+        "score": 6561.0, 
+        "stimulus": 428
+    }, 
+    {
+        "challenge": "UUUUUI", 
+        "correct": "UUUI", 
+        "incorrect": "UUUU", 
+        "rule": "UU->e", 
+        "score": 11809.8, 
+        "stimulus": 429
+    }, 
+    {
+        "challenge": "UMIUUUU", 
+        "correct": "UMIUU", 
+        "incorrect": "UIUUU", 
+        "rule": "UU->e", 
+        "score": 354294.0, 
+        "stimulus": 430
+    }, 
+    {
+        "challenge": "UUMIII", 
+        "correct": "MIII", 
+        "incorrect": "UUMI", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 431
+    }, 
+    {
+        "challenge": "IMUUMI", 
+        "correct": "IMMI", 
+        "incorrect": "IUMI", 
+        "rule": "UU->e", 
+        "score": 29524.5, 
+        "stimulus": 432
+    }, 
+    {
+        "challenge": "UUMUUUI", 
+        "correct": "UUMUI", 
+        "incorrect": "UUMUU", 
+        "rule": "UU->e", 
+        "score": 132860.25, 
+        "stimulus": 433
+    }, 
+    {
+        "challenge": "MIIIUU", 
+        "correct": "MIII", 
+        "incorrect": "MIUU", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 434
+    }, 
+    {
+        "challenge": "IUIUUU", 
+        "correct": "IUIU", 
+        "incorrect": "UIUU", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 435
+    }, 
+    {
+        "challenge": "MUUUI", 
+        "correct": "MUI", 
+        "incorrect": "UUI", 
+        "rule": "UU->e", 
+        "score": 1640.25, 
+        "stimulus": 436
+    }, 
+    {
+        "challenge": "MUUUU", 
+        "correct": "MUU", 
+        "incorrect": "UUU", 
+        "rule": "UU->e", 
+        "score": 1640.25, 
+        "stimulus": 437
+    }, 
+    {
+        "challenge": "IMUUIUMI", 
+        "correct": "IMIUMI", 
+        "incorrect": "IMUIMI", 
+        "rule": "UU->e", 
+        "score": 4782969.0, 
+        "stimulus": 438
+    }, 
+    {
+        "challenge": "UUMIIM", 
+        "correct": "MIIM", 
+        "incorrect": "UUIM", 
+        "rule": "UU->e", 
+        "score": 118098.0, 
+        "stimulus": 439
+    }, 
+    {
+        "challenge": "IMUUMUU", 
+        "correct": "IMMUU", 
+        "incorrect": "IUMUU", 
+        "rule": "UU->e", 
+        "score": 265720.5, 
+        "stimulus": 440
+    }, 
+    {
+        "challenge": "MIUUUUM", 
+        "correct": "MIUUM", 
+        "incorrect": "MIUUU", 
+        "rule": "UU->e", 
+        "score": 177147.0, 
+        "stimulus": 441
+    }, 
+    {
+        "challenge": "UUMIM", 
+        "correct": "MIM", 
+        "incorrect": "UIM", 
+        "rule": "UU->e", 
+        "score": 6561.0, 
+        "stimulus": 442
+    }, 
+    {
+        "challenge": "IUUMMMM", 
+        "correct": "IMMMM", 
+        "incorrect": "UMMMM", 
+        "rule": "UU->e", 
+        "score": 531441.0, 
+        "stimulus": 443
+    }, 
+    {
+        "challenge": "MUMUU", 
+        "correct": "MUM", 
+        "incorrect": "UUU", 
+        "rule": "UU->e", 
+        "score": 6561.0, 
+        "stimulus": 444
+    }, 
+    {
+        "challenge": "UMUUUU", 
+        "correct": "UMUU", 
+        "incorrect": "UUUU", 
+        "rule": "UU->e", 
+        "score": 19683.0, 
+        "stimulus": 445
+    }, 
+    {
+        "challenge": "UIIUUIUI", 
+        "correct": "UIIIUI", 
+        "incorrect": "UIIUII", 
+        "rule": "UU->e", 
+        "score": 4782969.0, 
+        "stimulus": 446
+    }, 
+    {
+        "challenge": "UUIUU", 
+        "correct": "IUU", 
+        "incorrect": "UUU", 
+        "rule": "UU->e", 
+        "score": 3280.5, 
+        "stimulus": 447
+    }, 
+    {
+        "challenge": "UIMMUU", 
+        "correct": "UIMM", 
+        "incorrect": "UIUU", 
+        "rule": "UU->e", 
+        "score": 118098.0, 
+        "stimulus": 448
+    }, 
+    {
+        "challenge": "UUUUII", 
+        "correct": "UUII", 
+        "incorrect": "UUUI", 
+        "rule": "UU->e", 
+        "score": 14762.25, 
+        "stimulus": 449
+    }, 
+    {
+        "challenge": "UUIMI", 
+        "correct": "IMI", 
+        "incorrect": "UIM", 
+        "rule": "UU->e", 
+        "score": 6561.0, 
+        "stimulus": 450
+    }, 
+    {
+        "challenge": "UUIUM", 
+        "correct": "IUM", 
+        "incorrect": "UUU", 
+        "rule": "UU->e", 
+        "score": 13122.0, 
+        "stimulus": 451
+    }, 
+    {
+        "challenge": "UUIIUM", 
+        "correct": "IIUM", 
+        "incorrect": "UIIM", 
+        "rule": "UU->e", 
+        "score": 118098.0, 
+        "stimulus": 452
+    }, 
+    {
+        "challenge": "IUUUUIU", 
+        "correct": "IUUIU", 
+        "incorrect": "IUUUU", 
+        "rule": "UU->e", 
+        "score": 177147.0, 
+        "stimulus": 453
+    }, 
+    {
+        "challenge": "UMMUUI", 
+        "correct": "UMMI", 
+        "incorrect": "UUUI", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 454
+    }, 
+    {
+        "challenge": "IUUMIIMU", 
+        "correct": "IMIIMU", 
+        "incorrect": "UUIIMU", 
+        "rule": "UU->e", 
+        "score": 9565938.0, 
+        "stimulus": 455
+    }, 
+    {
+        "challenge": "UUIUII", 
+        "correct": "IUII", 
+        "incorrect": "UIII", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 456
+    }, 
+    {
+        "challenge": "UUUMU", 
+        "correct": "UMU", 
+        "incorrect": "UUU", 
+        "rule": "UU->e", 
+        "score": 3280.5, 
+        "stimulus": 457
+    }, 
+    {
+        "challenge": "IIIUUU", 
+        "correct": "IIIU", 
+        "incorrect": "IUUU", 
+        "rule": "UU->e", 
+        "score": 39366.0, 
+        "stimulus": 458
+    }, 
+    {
+        "challenge": "IIUUUII", 
+        "correct": "IIUII", 
+        "incorrect": "IIUUI", 
+        "rule": "UU->e", 
+        "score": 177147.0, 
+        "stimulus": 459
+    }, 
+    {
+        "challenge": "UMUUU", 
+        "correct": "UMU", 
+        "incorrect": "UUU", 
+        "rule": "UU->e", 
+        "score": 3280.5, 
+        "stimulus": 460
+    }, 
+    {
+        "challenge": "UMUU", 
+        "correct": "UM", 
+        "incorrect": "UU", 
+        "rule": "UU->e", 
+        "score": 729.0, 
+        "stimulus": 461
+    }, 
+    {
+        "challenge": "MUUUM", 
+        "correct": "MUM", 
+        "incorrect": "MUU", 
+        "rule": "UU->e", 
+        "score": 2187.0, 
+        "stimulus": 462
+    }, 
+    {
+        "challenge": "UUIIMU", 
+        "correct": "IIMU", 
+        "incorrect": "UIMU", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 463
+    }, 
+    {
+        "challenge": "UUMUUU", 
+        "correct": "UUMU", 
+        "incorrect": "UMUU", 
+        "rule": "UU->e", 
+        "score": 39366.0, 
+        "stimulus": 464
+    }, 
+    {
+        "challenge": "UUIMUUI", 
+        "correct": "IMUUI", 
+        "incorrect": "UMUUI", 
+        "rule": "UU->e", 
+        "score": 177147.0, 
+        "stimulus": 465
+    }, 
+    {
+        "challenge": "UMIUUM", 
+        "correct": "UMIM", 
+        "incorrect": "UMUU", 
+        "rule": "UU->e", 
+        "score": 118098.0, 
+        "stimulus": 466
+    }, 
+    {
+        "challenge": "MUUUUU", 
+        "correct": "MUUU", 
+        "incorrect": "UUUU", 
+        "rule": "UU->e", 
+        "score": 14762.25, 
+        "stimulus": 467
+    }, 
+    {
+        "challenge": "IMIUUU", 
+        "correct": "IMIU", 
+        "incorrect": "IIUU", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 468
+    }, 
+    {
+        "challenge": "MUIUU", 
+        "correct": "MUI", 
+        "incorrect": "IUU", 
+        "rule": "UU->e", 
+        "score": 6561.0, 
+        "stimulus": 469
+    }, 
+    {
+        "challenge": "UIUUI", 
+        "correct": "UII", 
+        "incorrect": "UIU", 
+        "rule": "UU->e", 
+        "score": 3280.5, 
+        "stimulus": 470
+    }, 
+    {
+        "challenge": "MUUMM", 
+        "correct": "MMM", 
+        "incorrect": "UMM", 
+        "rule": "UU->e", 
+        "score": 3280.5, 
+        "stimulus": 471
+    }, 
+    {
+        "challenge": "UUUMUM", 
+        "correct": "UMUM", 
+        "incorrect": "UUMU", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 472
+    }, 
+    {
+        "challenge": "UIUUM", 
+        "correct": "UIM", 
+        "incorrect": "UUM", 
+        "rule": "UU->e", 
+        "score": 6561.0, 
+        "stimulus": 473
+    }, 
+    {
+        "challenge": "MMUU", 
+        "correct": "MM", 
+        "incorrect": "MU", 
+        "rule": "UU->e", 
+        "score": 364.5, 
+        "stimulus": 474
+    }, 
+    {
+        "challenge": "UUMUU", 
+        "correct": "MUU", 
+        "incorrect": "UMU", 
+        "rule": "UU->e", 
+        "score": 6561.0, 
+        "stimulus": 475
+    }, 
+    {
+        "challenge": "MUUIM", 
+        "correct": "MIM", 
+        "incorrect": "MUI", 
+        "rule": "UU->e", 
+        "score": 6561.0, 
+        "stimulus": 476
+    }, 
+    {
+        "challenge": "MUUIUU", 
+        "correct": "MUUI", 
+        "incorrect": "UUIU", 
+        "rule": "UU->e", 
+        "score": 59049.0, 
+        "stimulus": 477
+    }, 
+    {
+        "challenge": "MIUUUIU", 
+        "correct": "MIUIU", 
+        "incorrect": "MUUUI", 
+        "rule": "UU->e", 
+        "score": 797161.5, 
+        "stimulus": 478
+    }, 
+    {
+        "challenge": "IUUUII", 
+        "correct": "IUII", 
+        "incorrect": "UUII", 
+        "rule": "UU->e", 
+        "score": 19683.0, 
+        "stimulus": 479
+    }
+]
