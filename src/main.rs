@@ -88,7 +88,7 @@ fn main() {
         "failed to initialize population",
     );
     for (i, (trs, score)) in pop.iter().enumerate() {
-        println!("{}. {}\n{}", i, score, trs);
+        println!("{}. {}\n{}\n", i, score, trs);
     }
 
     start_section("Evolving");
