@@ -78,6 +78,11 @@ fn main() {
     );
     println!("{}", h_star);
 
+    start_section("Testing Likelihood");
+    h_star.test_single_likelihood(
+        &exit_err(data[2].to_positive_example(&mut lex), "bad datum"),
+        params.model,
+    );
 
     start_section("Scheduling Trials");
     let blocks = exit_err(
