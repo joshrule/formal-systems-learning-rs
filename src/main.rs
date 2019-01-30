@@ -208,10 +208,31 @@ fn evolve<R: Rng>(
                 );
             }
         }
+        let prediction = make_2afc_prediction(test_data, params.model, pop);
+        println!("prediction: {}", prediction);
     }
     Ok(())
 }
 
+fn make_2afc_prediction(
+    data: &[(Rule, Rule)],
+    params: ModelParams,
+    population: &mut Vec<(TRS, f64)>,
+) -> f64 {
+    let (positives, negatives): (Vec<_>, Vec<_>) = data.iter().cloned().unzip();
+    let (ps, ns): (Vec<_>, Vec<_>) = population
+        .iter()
+        .map(|(t, _)| {
+            (
+                -t.log_likelihood(&positives, params),
+                -t.log_likelihood(&negatives, params),
+            )
+        })
+        .unzip();
+    let p = logsumexp(&ps);
+    let n = logsumexp(&ns);
+    (p - logsumexp(&[p, n])).exp()
+}
 
 fn schedule_trials<R: Rng>(
     data: &Vec<Record>,
@@ -356,4 +377,10 @@ pub struct SimulationParams {
     pub generations_per_datum: usize,
     pub problem_dir: String,
     pub deterministic: bool,
+}
+
+pub fn logsumexp(lps: &[f64]) -> f64 {
+    let largest = lps.iter().cloned().fold(f64::NEG_INFINITY, f64::max);
+    let x = lps.iter().map(|lp| (lp - largest).exp()).sum::<f64>().ln();
+    largest + x
 }
