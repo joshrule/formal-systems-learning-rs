@@ -80,7 +80,16 @@ fn main() {
 
 
     start_section("Scheduling Trials");
-    let blocks = exit_err(schedule_trials(&data, 10, 0, &mut lex, rng), "bad data");
+    let blocks = exit_err(
+        schedule_trials(
+            &data,
+            params.simulation.n_train,
+            params.simulation.n_test,
+            &mut lex,
+            rng,
+        ),
+        "bad data",
+    );
     for (i, block) in blocks.iter().enumerate() {
         println!("Block {}: {} trials", i, block.len());
     }
@@ -380,6 +389,8 @@ pub struct SimulationParams {
     pub generations_per_datum: usize,
     pub problem_dir: String,
     pub deterministic: bool,
+    pub n_train: usize,
+    pub n_test: usize,
 }
 
 pub fn logsumexp(lps: &[f64]) -> f64 {

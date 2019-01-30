@@ -2,6 +2,8 @@
 generations_per_datum = 10
 problem_dir = "./trs"
 deterministic = false
+n_test = 0
+n_train = 10
 
 [genetic]
 max_sample_size = 25
