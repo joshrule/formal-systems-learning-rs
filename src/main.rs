@@ -32,6 +32,10 @@ use programinduction::trs::{
 use programinduction::{GPParams, GP};
 use rand::rngs::SmallRng;
 use rand::{Rng, SeedableRng};
+use rand::{
+    distributions::{Distribution, Uniform},
+    seq::SliceRandom,
+};
 use std::fmt;
 use std::fs::{read_to_string, File};
 use std::io::BufReader;
@@ -71,6 +75,13 @@ fn main() {
     );
     println!("{}", h_star);
 
+
+    start_section("Scheduling Trials");
+    let blocks = exit_err(schedule_trials(&data, 10, 0, &mut lex, rng), "bad data");
+    for (i, block) in blocks.iter().enumerate() {
+        println!("Block {}: {} trials", i, block.len());
+    }
+
     start_section("Initializing Population");
     let mut pop = exit_err(
         initialize_population(&lex, &params, rng),
@@ -81,17 +92,8 @@ fn main() {
     }
 
     start_section("Evolving");
-    let evolve_data: Vec<_> = data
-        .iter()
-        .map(|x| {
-            exit_err(
-                x.to_positive_example(&mut lex),
-                "cannot convert datum to rule",
-            )
-        })
-        .collect();
     exit_err(
-        evolve(&evolve_data[..], &mut pop, &h_star, &lex, &params, rng),
+        evolve(&blocks[0], &mut pop, &h_star, &lex, &params, rng),
         "evolutionary failure",
     );
 }
@@ -160,31 +162,35 @@ fn initialize_population<R: Rng>(
 }
 
 fn evolve<R: Rng>(
-    data: &[Rule],
+    data: &[(Rule, Rule)],
     pop: &mut Vec<(TRS, f64)>,
     h_star: &TRS,
     lex: &Lexicon,
     params: &Params,
     rng: &mut R,
 ) -> Result<(), String> {
+    if data.is_empty() {
+        return Err(String::from("Not enough data"));
+    }
     println!("n_data,generation,id,llikelihood,lprior,score,difference,description");
-    for n_data in 0..=(data.len()) {
-        for datum in &data[0..n_data] {
-            println!("datum: {}", datum.display());
+    for n_data in 0..(data.len() - 1) {
+        let test_data = &data[(n_data + 1)..(n_data + 2)];
+        for datum in &data[0..(n_data)] {
+            println!("datum:\n{}\n{}", datum.0.pretty(), datum.1.pretty());
         }
-        let task = str_err(task_by_rewrite(&data[0..n_data], params.model, lex, ()))?;
+        let positives = data[0..n_data].iter().map(|(p, _)| p.clone()).collect_vec();
+        let task = str_err(task_by_rewrite(&positives, params.model, lex, ()))?;
         for i in pop.iter_mut() {
             i.1 = (task.oracle)(lex, &i.0);
         }
         let h_star_lpost = (task.oracle)(lex, h_star);
-        let h_star_llike = -h_star.log_likelihood(&data[0..n_data], params.model);
+        let h_star_llike = -h_star.log_likelihood(&positives, params.model);
         let h_star_lprior = -h_star.pseudo_log_prior();
 
         for gen in 0..params.simulation.generations_per_datum {
             lex.evolve(&params.genetic, rng, &params.gp, &task, pop);
-            println!("evolved!");
             for (i, (individual, score)) in pop.iter().enumerate() {
-                let llike = -individual.log_likelihood(&data[0..n_data], params.model);
+                let llike = -individual.log_likelihood(&positives, params.model);
                 let lprior = -individual.pseudo_log_prior();
                 println!(
                     "{},{},{},{:.4},{:.4},{:.4},{:.4},{:.4},{:.4},{:.4},{:?}",
@@ -206,6 +212,83 @@ fn evolve<R: Rng>(
     Ok(())
 }
 
+
+fn schedule_trials<R: Rng>(
+    data: &Vec<Record>,
+    n_train: usize,
+    n_test: usize,
+    lex: &mut Lexicon,
+    rng: &mut R,
+) -> Result<Vec<Vec<(Rule, Rule)>>, String> {
+    let mut blocks = vec![];
+    let mut trials = vec![];
+
+    // group trials by rule, shuffle the trials, and shuffle the rule order
+    for (_, v) in &data.iter().sorted_by_key(|x| &x.rule).group_by(|x| &x.rule) {
+        let mut ts = v.collect_vec();
+        ts.shuffle(rng);
+        trials.push(ts);
+    }
+    trials.shuffle(rng);
+
+    for block in 0..(trials.len()) {
+        blocks.push(make_training_block(&mut trials, block, n_train, lex, rng)?);
+    }
+
+    blocks.push(make_testing_block(&mut trials, n_test, lex, rng)?);
+
+    return Ok(blocks);
+}
+
+fn make_training_block<R: Rng>(
+    trials: &mut [Vec<&Record>],
+    i_block: usize,
+    n: usize,
+    lex: &mut Lexicon,
+    rng: &mut R,
+) -> Result<Vec<(Rule, Rule)>, String> {
+    let mut block = vec![];
+    let blocks = Uniform::new_inclusive(0, i_block);
+
+    // put n-1 trials of current rule in block
+    for _ in 0..n {
+        // put trial of previous rule in block
+        if i_block > 0 {
+            let a_previous_rule = blocks.sample(rng);
+            // TODO: trial.target = false;
+            block.push(trials[a_previous_rule].pop().unwrap().to_examples(lex)?);
+        }
+        // put trial of current rule in block
+        // TODO: trial.target = true;
+        block.push(trials[i_block].pop().unwrap().to_examples(lex)?);
+    }
+
+    // shuffle, with final trial from current rule
+    let last_trial = block.pop().unwrap();
+    block.shuffle(rng);
+    block.push(last_trial);
+
+    Ok(block)
+}
+
+fn make_testing_block<R: Rng>(
+    trials: &mut [Vec<&Record>],
+    n: usize,
+    lex: &mut Lexicon,
+    rng: &mut R,
+) -> Result<Vec<(Rule, Rule)>, String> {
+    trials
+        .iter_mut()
+        .map(|x| x.drain(..n))
+        .flatten()
+        .map(|x| x.to_examples(lex))
+        .collect::<Result<Vec<_>, String>>()
+        .map(|mut x| {
+            x.shuffle(rng);
+            x
+        })
+}
+
 #[derive(Clone, Debug, Serialize, Deserialize)]
 struct Record {
     challenge: String,
@@ -218,14 +301,25 @@ struct Record {
 impl Record {
     fn to_example(&self, rhs: &str, lex: &mut Lexicon) -> Result<Rule, String> {
         let rule_string = format!(
-            "S(({})) = S(({}))",
-            self.challenge.chars().join(" "),
-            rhs.chars().join(" ")
+            "S(({} END{})) = S(({} END{}))",
+            self.challenge.chars().join(" ("),
+            ")".repeat(self.challenge.len() - 1),
+            rhs.chars().join(" ("),
+            ")".repeat(rhs.len() - 1),
         );
         str_err(parse_rule(&rule_string, lex, &mut lex.context()))
     }
     fn to_positive_example(&self, lex: &mut Lexicon) -> Result<Rule, String> {
         self.to_example(&self.correct, lex)
+    }
+    fn to_negative_example(&self, lex: &mut Lexicon) -> Result<Rule, String> {
+        self.to_example(&self.incorrect, lex)
+    }
+    fn to_examples(&self, lex: &mut Lexicon) -> Result<(Rule, Rule), String> {
+        Ok((
+            self.to_positive_example(lex)?,
+            self.to_negative_example(lex)?,
+        ))
     }
 }
 impl fmt::Display for Record {
