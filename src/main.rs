@@ -26,16 +26,19 @@ extern crate toml;
 use docopt::Docopt;
 use itertools::Itertools;
 use polytype::Context as TypeContext;
-use programinduction::trs::{
-    parse_lexicon, parse_rule, parse_trs, task_by_rewrite, GeneticParams, Lexicon, ModelParams, TRS,
+use programinduction::{
+    trs::{
+        parse_lexicon, parse_rule, parse_trs, task_by_rewrite, GeneticParams, Lexicon, ModelParams,
+        TRS,
+    },
+    GPParams, GP,
 };
-use programinduction::{GPParams, GP};
-use rand::rngs::SmallRng;
-use rand::{Rng, SeedableRng};
 use rand::{
     distributions::{Distribution, Uniform},
     seq::SliceRandom,
+    thread_rng, Rng,
 };
+use std::f64;
 use std::fmt;
 use std::fs::{read_to_string, File};
 use std::io::BufReader;
@@ -44,7 +47,7 @@ use std::process::exit;
 use term_rewriting::Rule;
 
 fn main() {
-    let rng = &mut SmallRng::from_seed([1u8; 16]);
+    let rng = &mut thread_rng();
 
     start_section("Loading parameters");
     let params = exit_err(load_args(), "Problem loading simulation parameters");
