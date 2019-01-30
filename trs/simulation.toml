@@ -8,17 +8,17 @@ max_sample_size = 25
 n_crosses = 1
 p_add = 0.5
 p_keep = 0.5
-atom_weights = [2.0, 1.0, 1.0]
+atom_weights = [1.0, 1.0, 1.0]
 
 [gp]
-selection = "deterministic"
+selection = "hybrid"
 population_size = 10 
 tournament_size = 10 
 mutation_prob = 0.95
 n_delta = 20
 
 [model]
-p_partial = 0.2
-p_observe = 0.1
-max_steps = 200
-max_size = 500
+p_partial = 0.001
+p_observe = 0.5
+max_steps = 25
+max_size = 200

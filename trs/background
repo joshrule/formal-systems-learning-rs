@@ -1,10 +1,12 @@
 # For any string rewriting problem, we assume:
+CAT(END z_) = z_;
+CAT((x_ y_) z_) = (x_ CAT(y_ z_));
 
-# 1. Strings are associative.
-x_ y_ z_ = x_ (y_ z_);
-x_ (y_ z_) = x_ y_ z_;
-
-# NOTE: THIS ASSUMPTION WAS REMOVED TO SIMPLIFY EVALUATION
+# NOTE: THESE ASSUMPTIONS WERE REMOVED TO SIMPLIFY EVALUATION
+# # 1. Strings are associative.
+# x_ y_ z_ = x_ (y_ z_);
+# x_ (y_ z_) = x_ y_ z_;
+#
 # 2. Rewrites can insert or remove the empty string, e, as needed.
 # x_ y_  = x_ e y_;
 # x_ e = x_;
