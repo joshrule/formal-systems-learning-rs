@@ -1,12 +1,12 @@
 [simulation]
-generations_per_datum = 10
+generations_per_datum = 40
 problem_dir = "./trs"
 deterministic = false
 n_test = 0
-n_train = 10
+n_train = 11
 
 [genetic]
-max_sample_size = 25
+max_sample_size = 7
 n_crosses = 1
 p_add = 0.5
 p_keep = 0.5
@@ -14,13 +14,13 @@ atom_weights = [1.0, 1.0, 1.0]
 
 [gp]
 selection = { "hybrid" = 0.5 }
-population_size = 10 
-tournament_size = 10 
+population_size = 10
+tournament_size = 10
 mutation_prob = 0.95
 n_delta = 20
 
 [model]
 p_partial = 0.001
 p_observe = 0.5
-max_steps = 50
-max_size = 200
+max_steps = 20
+max_size = 20
