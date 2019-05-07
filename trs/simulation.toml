@@ -13,7 +13,7 @@ p_keep = 0.5
 atom_weights = [1.0, 1.0, 1.0]
 
 [gp]
-selection = "hybrid"
+selection = { "hybrid" = 0.5 }
 population_size = 10 
 tournament_size = 10 
 mutation_prob = 0.95

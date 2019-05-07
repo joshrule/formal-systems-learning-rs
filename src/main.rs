@@ -78,12 +78,6 @@ fn main() {
     );
     println!("{}", h_star);
 
-    start_section("Testing Likelihood");
-    h_star.test_single_likelihood(
-        &exit_err(data[2].to_positive_example(&mut lex), "bad datum"),
-        params.model,
-    );
-
     start_section("Scheduling Trials");
     let blocks = exit_err(
         schedule_trials(
@@ -252,7 +246,7 @@ fn make_2afc_prediction(
 }
 
 fn schedule_trials<R: Rng>(
-    data: &Vec<Record>,
+    data: &[Record],
     n_train: usize,
     n_test: usize,
     lex: &mut Lexicon,
@@ -275,7 +269,7 @@ fn schedule_trials<R: Rng>(
 
     blocks.push(make_testing_block(&mut trials, n_test, lex, rng)?);
 
-    return Ok(blocks);
+    Ok(blocks)
 }
 
 fn make_training_block<R: Rng>(
